@@ -23,18 +23,18 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? "bg-white shadow-md" : "bg-transparent"}`}>
+      <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? "bg-white shadow-md" : "bg-white"}`}>
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-10 md:h-12" />
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
-            <a href="#approach" className="text-foreground hover:text-primary transition-colors">Our Approach</a>
-            <a href="#values" className="text-foreground hover:text-primary transition-colors">Values</a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
+            <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold">About</a>
+            <a href="#approach" className="text-foreground hover:text-primary transition-colors font-semibold">Our Approach</a>
+            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Values</a>
+            <a href="#contact" className="text-foreground hover:text-primary transition-colors font-semibold">Contact</a>
           </div>
-          <Button className="btn-primary">Contact Us</Button>
+          <Button className="btn-primary font-semibold">Contact Us</Button>
         </div>
       </nav>
 
