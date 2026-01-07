@@ -43,74 +43,78 @@
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  /* Legacy Transition Partners - Modern Institutional with Warm Accents */
+  /* Primary: Deep Charcoal, Accent: Warm Terracotta, Background: Cream */
+  
+  --primary: #C85A3A;
+  --primary-foreground: #FFFFFF;
+  --sidebar-primary: #C85A3A;
+  --sidebar-primary-foreground: #FFFFFF;
+  --chart-1: #C85A3A;
+  --chart-2: #D97548;
+  --chart-3: #E08F5D;
+  --chart-4: #E8A876;
+  --chart-5: #F0C1A0;
+  --radius: 0.5rem;
+  --background: #F9F7F4;
+  --foreground: #1A1A1A;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1A1A;
+  --secondary: #2C3E50;
+  --secondary-foreground: #FFFFFF;
+  --muted: #E8E3DC;
+  --muted-foreground: #666666;
+  --accent: #C85A3A;
+  --accent-foreground: #FFFFFF;
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  --border: #D4D4D4;
+  --input: #FFFFFF;
+  --ring: #C85A3A;
+  --sidebar: #2C3E50;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-accent: #C85A3A;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #1A3A4D;
+  --sidebar-ring: #C85A3A;
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  /* Dark mode variant - not used for this project */
+  --primary: #C85A3A;
+  --primary-foreground: #FFFFFF;
+  --sidebar-primary: #C85A3A;
+  --sidebar-primary-foreground: #FFFFFF;
+  --background: #1A1A1A;
+  --foreground: #E8E3DC;
+  --card: #2C2C2C;
+  --card-foreground: #E8E3DC;
+  --popover: #2C2C2C;
+  --popover-foreground: #E8E3DC;
+  --secondary: #C85A3A;
+  --secondary-foreground: #FFFFFF;
+  --muted: #4A4A4A;
+  --muted-foreground: #B0B0B0;
+  --accent: #C85A3A;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --destructive-foreground: #000000;
+  --border: #3A3A3A;
+  --input: #2C2C2C;
+  --ring: #C85A3A;
+  --chart-1: #C85A3A;
+  --chart-2: #D97548;
+  --chart-3: #E08F5D;
+  --chart-4: #E8A876;
+  --chart-5: #F0C1A0;
+  --sidebar: #2C3E50;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-accent: #C85A3A;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #1A3A4D;
+  --sidebar-ring: #C85A3A;
 }
 
 @layer base {
@@ -119,6 +123,36 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--foreground);
+  }
+  h1 {
+    font-size: clamp(32px, 8vw, 48px);
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: clamp(24px, 6vw, 36px);
+    margin-bottom: 1.25rem;
+  }
+  h3 {
+    font-size: clamp(20px, 5vw, 28px);
+    margin-bottom: 1rem;
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 0.875rem;
+  }
+  p {
+    margin-bottom: 1rem;
+    color: var(--foreground);
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -130,6 +164,10 @@
   input[type="checkbox"]:not(:disabled),
   input[type="radio"]:not(:disabled) {
     @apply cursor-pointer;
+  }
+  /* Smooth transitions */
+  * {
+    transition: color 300ms ease-out, background-color 300ms ease-out, border-color 300ms ease-out, box-shadow 300ms ease-out, transform 300ms ease-out;
   }
 }
 
@@ -173,5 +211,29 @@
       padding-right: 2rem;
       max-width: 1280px; /* Standard content width */
     }
+  }
+  
+  /* Custom button styling for warm accent */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium hover:shadow-lg hover:scale-105;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-md font-medium hover:bg-primary hover:text-primary-foreground;
+  }
+  
+  /* Card with soft shadow */
+  .card-elevated {
+    @apply bg-card text-card-foreground rounded-lg shadow-md hover:shadow-xl p-6;
+  }
+  
+  /* Geometric accent line */
+  .accent-divider {
+    @apply w-16 h-1 bg-primary rounded-full;
+  }
+  
+  /* Section spacing */
+  .section-spacing {
+    @apply py-20 md:py-32;
   }
 }
