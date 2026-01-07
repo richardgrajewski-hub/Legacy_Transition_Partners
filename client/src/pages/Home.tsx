@@ -26,7 +26,7 @@ export default function Home() {
       <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? "bg-white shadow-md" : "bg-white"}`}>
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-10 md:h-12" />
+            <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-14 md:h-20 w-auto" />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold">About</a>
