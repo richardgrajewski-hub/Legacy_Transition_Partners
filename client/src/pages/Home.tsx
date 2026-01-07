@@ -234,10 +234,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-12 w-auto mb-4" />
-              <p className="text-sm opacity-80">
-                Partnering with founders to scale exceptional lower middle-market businesses in essential services.
-              </p>
+              <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-32 w-auto mb-4" />
             </div>
             <div>
               <h4 className="font-bold mb-4">Quick Links</h4>
