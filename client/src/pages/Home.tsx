@@ -31,8 +31,8 @@ export default function Home() {
           <div className="hidden md:flex items-center gap-8">
             <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold">About Us</a>
             <a href="#approach" className="text-foreground hover:text-primary transition-colors font-semibold">Our Approach</a>
-            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
-            <a href="https://predeploy-541ca20e-legacytrans-anosv3mn.manus.space/?from_webdev=1#team" className="text-foreground hover:text-primary transition-colors font-semibold">Values</a>
+            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Values</a>
+            <a href="https://predeploy-541ca20e-legacytrans-anosv3mn.manus.space/?from_webdev=1#team" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
           </div>
           <Button className="btn-primary font-semibold">Contact Us</Button>
         </div>
@@ -234,9 +234,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h4 className="font-bold mb-4">Legacy Transition Partners</h4>
+              <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-12 w-auto mb-4" />
               <p className="text-sm opacity-80">
-                
+                Partnering with founders to scale exceptional lower middle-market businesses in essential services.
               </p>
             </div>
             <div>
