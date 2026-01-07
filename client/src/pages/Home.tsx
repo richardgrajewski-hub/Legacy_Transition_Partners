@@ -24,12 +24,9 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? "bg-white shadow-md" : "bg-transparent"}`}>
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">LTP</span>
-            </div>
-            <span className="font-bold text-lg text-secondary hidden sm:inline">Legacy Transition Partners</span>
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-10 md:h-12" />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
@@ -46,11 +43,11 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/hero-mountain-landscape.jpg')",
+            backgroundImage: "url('/images/michigan-hero.jpg')",
             backgroundAttachment: "fixed",
           }}
         >
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/35"></div>
         </div>
 
         {/* Curved bottom edge */}

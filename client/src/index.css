@@ -43,42 +43,42 @@
 }
 
 :root {
-  /* Legacy Transition Partners - Modern Institutional with Warm Accents */
-  /* Primary: Deep Charcoal, Accent: Warm Terracotta, Background: Cream */
+  /* Legacy Transition Partners - Navy Blue Brand Identity */
+  /* Primary: Navy Blue (#2C4A7C), Secondary: Steel Blue (#3D5A80), Background: Off-White */
   
-  --primary: #C85A3A;
+  --primary: #2C4A7C;
   --primary-foreground: #FFFFFF;
-  --sidebar-primary: #C85A3A;
+  --sidebar-primary: #2C4A7C;
   --sidebar-primary-foreground: #FFFFFF;
-  --chart-1: #C85A3A;
-  --chart-2: #D97548;
-  --chart-3: #E08F5D;
-  --chart-4: #E8A876;
-  --chart-5: #F0C1A0;
+  --chart-1: #2C4A7C;
+  --chart-2: #3D5A80;
+  --chart-3: #4E6B8F;
+  --chart-4: #5F7C9E;
+  --chart-5: #708DAD;
   --radius: 0.5rem;
-  --background: #F9F7F4;
+  --background: #F5F7FA;
   --foreground: #1A1A1A;
   --card: #FFFFFF;
   --card-foreground: #1A1A1A;
   --popover: #FFFFFF;
   --popover-foreground: #1A1A1A;
-  --secondary: #2C3E50;
+  --secondary: #2C4A7C;
   --secondary-foreground: #FFFFFF;
-  --muted: #E8E3DC;
+  --muted: #E8ECEF;
   --muted-foreground: #666666;
-  --accent: #C85A3A;
+  --accent: #2C4A7C;
   --accent-foreground: #FFFFFF;
   --destructive: #DC2626;
   --destructive-foreground: #FFFFFF;
-  --border: #D4D4D4;
+  --border: #D4D9E0;
   --input: #FFFFFF;
-  --ring: #C85A3A;
-  --sidebar: #2C3E50;
+  --ring: #2C4A7C;
+  --sidebar: #2C4A7C;
   --sidebar-foreground: #FFFFFF;
-  --sidebar-accent: #C85A3A;
+  --sidebar-accent: #2C4A7C;
   --sidebar-accent-foreground: #FFFFFF;
-  --sidebar-border: #1A3A4D;
-  --sidebar-ring: #C85A3A;
+  --sidebar-border: #1A3052;
+  --sidebar-ring: #2C4A7C;
 }
 
 .dark {
