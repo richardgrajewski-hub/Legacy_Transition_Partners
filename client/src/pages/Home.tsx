@@ -29,10 +29,10 @@ export default function Home() {
             <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-20 md:h-28 w-auto" />
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold">About</a>
+            <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold">About Us</a>
             <a href="#approach" className="text-foreground hover:text-primary transition-colors font-semibold">Our Approach</a>
-            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Values</a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors font-semibold">Contact</a>
+            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
+            <a href="https://predeploy-541ca20e-legacytrans-anosv3mn.manus.space/?from_webdev=1#team" className="text-foreground hover:text-primary transition-colors font-semibold">Values</a>
           </div>
           <Button className="btn-primary font-semibold">Contact Us</Button>
         </div>
@@ -64,13 +64,13 @@ export default function Home() {
 
         <div className="relative z-10 text-center px-4 max-w-3xl">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Partner with Founders to Scale Essential Services Businesses
+            Partnering with Founders to Build Legacies that Last
           </h1>
           <p className="text-white text-lg md:text-xl mb-8 opacity-95">
-            Combining institutional rigor with founder-centric partnership to unlock long-term value in the lower middle market.
+            
           </p>
           <Button className="btn-primary text-lg px-8 py-4">
-            Get in Touch <ArrowRight className="ml-2 w-5 h-5" />
+            Contact Us <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
       </section>
@@ -83,11 +83,11 @@ export default function Home() {
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Target className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold">Target Companies</h3>
+                <h3 className="text-xl font-bold">Target Criteria</h3>
               </div>
               <p className="text-foreground font-semibold text-lg mb-2">$1-$5M EBITDA</p>
               <p className="text-muted-foreground">
-                Founder-owned businesses in the essential services space with proven operations and growth potential.
+                Founder-owned businesses providing essential services with consistent performance, strong growth potential, and operating in highly fragmented sectors.
               </p>
             </div>
 
@@ -98,10 +98,10 @@ export default function Home() {
                 <h3 className="text-xl font-bold">Industries</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Specialty Services & Distribution</li>
-                <li>• Business Services</li>
-                <li>• Essential Infrastructure</li>
-                <li>• Facility Management</li>
+                <li>• Commercial & Facility Services</li>
+                <li>• Infrastructure/Industrial Services</li>
+                <li>• Professional Services</li>
+                <li>• Specialty Distribution</li>
               </ul>
             </div>
 
@@ -112,7 +112,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold">Strategy</h3>
               </div>
               <p className="text-muted-foreground">
-                Operational growth through founder alignment, process optimization, and sustainable scaling strategies.
+                Transformational growth through founder partnership, operational excellence, and disciplined value creation.
               </p>
             </div>
           </div>
@@ -127,13 +127,13 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">About Legacy Transition Partners</h2>
               <div className="accent-divider mb-6"></div>
               <p className="text-lg text-muted-foreground mb-4">
-                We are a lower middle market private equity firm dedicated to partnering with founder-owned businesses in the essential services space. Our approach combines institutional rigor with genuine founder partnership.
+                We were founded to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                With deep experience in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term.
+                With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term
               </p>
               <Button className="btn-outline">
-                Learn More <ArrowRight className="ml-2 w-4 h-4" />
+                About Us <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </div>
             <div className="relative">
@@ -155,7 +155,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We are driven by integrity, innovation, and a commitment to empowering businesses with strategic, result-oriented solutions.
+              Our approach is guided by a core commitment to integrity and fueled by a passion for innovation. We partner with founders to implement clear, actionable strategies that honor their legacy while delivering measurable and enduring growth.
             </p>
           </div>
 
@@ -236,7 +236,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-4">Legacy Transition Partners</h4>
               <p className="text-sm opacity-80">
-                Partnering with founders to scale exceptional lower middle-market businesses in essential services.
+                
               </p>
             </div>
             <div>
@@ -245,7 +245,7 @@ export default function Home() {
                 <li><a href="#about" className="hover:opacity-80 transition-opacity">About Us</a></li>
                 <li><a href="#approach" className="hover:opacity-80 transition-opacity">Our Approach</a></li>
                 <li><a href="#values" className="hover:opacity-80 transition-opacity">Values</a></li>
-                <li><a href="#contact" className="hover:opacity-80 transition-opacity">Contact</a></li>
+                <li><a href="#contact" className="hover:opacity-80 transition-opacity">Team</a></li>
               </ul>
             </div>
             <div>
@@ -257,7 +257,7 @@ export default function Home() {
               </p>
               <p className="text-sm mt-2">
                 <a href="tel:+1-555-123-4567" className="hover:opacity-80 transition-opacity">
-                  +1 (555) 123-4567
+                  +1 (248) 974-7463
                 </a>
               </p>
             </div>
