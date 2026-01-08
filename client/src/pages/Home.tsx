@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="section-spacing bg-white pb-48">
+      <section id="about" className="section-spacing bg-gradient-to-br from-blue-50 to-indigo-50 pb-48">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       {/* Target Companies Section */}
-      <section id="focus" className="section-spacing bg-background pb-64">
+      <section id="focus" className="section-spacing bg-white pb-64">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Focus</h2>
@@ -151,7 +151,7 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section id="values" className="section-spacing bg-background">
+      <section id="values" className="section-spacing bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Values</h2>

@@ -23,7 +23,7 @@ export default function TeamSection() {
   ];
 
   return (
-    <section id="team" className="section-spacing bg-background">
+    <section id="team" className="section-spacing bg-gradient-to-br from-indigo-50 to-blue-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Team</h2>
