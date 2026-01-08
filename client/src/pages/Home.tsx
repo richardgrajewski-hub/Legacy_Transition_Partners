@@ -198,22 +198,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Call-to-Action Section */}
-      <section className="bg-gradient-to-r from-primary to-primary/80 py-16 md:py-24">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Build Your Legacy?</h2>
-          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join founders who are transforming their businesses with strategic partnership and operational excellence. Let's explore how we can help unlock the next chapter of growth for your company.
-          </p>
-          <a
-            href="mailto:info@legacytransitionpartners.com"
-            className="inline-block bg-white text-primary font-bold py-3 px-8 rounded-lg hover:bg-white/90 transition-all duration-300 transform hover:scale-105 shadow-lg"
-          >
-            Start a Conversation
-          </a>
-        </div>
-      </section>
-
       {/* Team Section */}
       <TeamSection />
 
