@@ -33,7 +33,7 @@ export default function Home() {
             <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold">About Us</a>
             <a href="#focus" className="text-foreground hover:text-primary transition-colors font-semibold">Our Focus</a>
             <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Core Values</a>
-            <a href="https://predeploy-541ca20e-legacytrans-anosv3mn.manus.space/?from_webdev=1#team" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
+            <a href="#team" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
           </div>
           <Button className="btn-primary font-semibold">Contact Us</Button>
         </div>
