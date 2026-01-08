@@ -227,29 +227,13 @@ export default function Contact() {
       {/* Footer */}
       <footer className="bg-secondary text-secondary-foreground py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="flex flex-col items-center text-center mb-8">
+            <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-32 w-auto mb-6" />
             <div>
-              <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-32 w-auto mb-4" />
-            </div>
-            <div>
-              <h4 className="font-bold mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-sm">
-                <li><a href="/" className="hover:opacity-80 transition-opacity">Home</a></li>
-                <li><a href="/#about" className="hover:opacity-80 transition-opacity">About Us</a></li>
-                <li><a href="/#values" className="hover:opacity-80 transition-opacity">Core Values</a></li>
-                <li><a href="/#team" className="hover:opacity-80 transition-opacity">Team</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold mb-4">Contact</h4>
+              <h4 className="font-bold mb-2">Contact</h4>
               <p className="text-sm">
                 <a href="mailto:info@legacytransitionpartners.com" className="hover:opacity-80 transition-opacity">
                   info@legacytransitionpartners.com
-                </a>
-              </p>
-              <p className="text-sm mt-2">
-                <a href="tel:+1-248-974-7463" className="hover:opacity-80 transition-opacity">
-                  +1 (248) 974-7463
                 </a>
               </p>
             </div>
