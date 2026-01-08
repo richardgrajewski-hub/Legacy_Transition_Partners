@@ -83,10 +83,10 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">About Legacy Transition Partners</h2>
               <div className="accent-divider mb-6"></div>
               <p className="text-lg text-muted-foreground mb-4">
-                We were founded to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth
+                We were founded to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term
+                With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term.
               </p>
             </div>
             <div className="relative">
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
               <p className="text-foreground font-semibold text-lg mb-2">$1-$5M EBITDA</p>
               <p className="text-muted-foreground">
-                Founder-owned businesses providing essential services with consistent performance, strong growth potential, and operating in highly fragmented sectors.
+                Founder-owned businesses based in the U.S. providing essential services with consistent performance, strong growth potential, and operating in highly fragmented sectors.
               </p>
             </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold">Strategy</h3>
               </div>
               <p className="text-muted-foreground">
-                Transformational growth through founder partnership, operational excellence, and disciplined value creation.
+                Generate transformational growth through a hands on partnership approach with founders and management teams focused on operational excellence and executing a disciplined value creation plan.
               </p>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Partnering with founders through integrity, humility, and unwavering passion to implement clear, actionable strategies that honor their legacy while delivering measurable and enduring growth.
+              Integrity, humility, and unwavering passion to implement clear, actionable strategies that honor legacy while delivering measurable and enduring growth.
             </p>
           </div>
 
@@ -165,27 +165,27 @@ export default function Home() {
             {[
               {
                 title: "Legacy",
-                description: "We preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
+                description: "Preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
               },
               {
                 title: "Integrity",
-                description: "We communicate with complete honesty and transparency, ensuring founders always know where we stand and what to expect.",
+                description: "Operate with transparent stewardship, aligning investor's and founder's objectives ensuring actions match commitments.",
               },
               {
                 title: "Humility",
-                description: "We approach every partnership with humility, recognizing that the founder's deep knowledge of their business is invaluable and that our role is to collaborate and enhance what they have built.",
+                description: "Approach every partnership with humility, recognizing the founder's deep knowledge of their business is invaluable and the investor's role is to collaborate and enhance what they have built.",
               },
               {
                 title: "Operational Excellence",
-                description: "We drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
+                description: "Drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
               },
               {
                 title: "Long-Term Value Creation",
-                description: "We focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
+                description: "Focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
               },
               {
                 title: "Transparency",
-                description: "We maintain open, honest communication about opportunities, challenges, and strategic decisions, ensuring founders are informed and confident in our partnership.",
+                description: "Open, honest, candid communication about opportunities, challenges, and strategic decisions",
               },
             ].map((value, idx) => (
               <div key={idx} className="card-elevated text-center">
