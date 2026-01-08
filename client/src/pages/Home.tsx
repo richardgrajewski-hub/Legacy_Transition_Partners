@@ -69,9 +69,32 @@ export default function Home() {
           <p className="text-white text-lg md:text-xl mb-8 opacity-95">
             
           </p>
-          <Button className="btn-primary text-lg px-8 py-4">
-            Contact Us <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="section-spacing bg-white">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">About Legacy Transition Partners</h2>
+              <div className="accent-divider mb-6"></div>
+              <p className="text-lg text-muted-foreground mb-4">
+                We were founded to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth
+              </p>
+              <p className="text-lg text-muted-foreground mb-6">
+                With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term
+              </p>
+            </div>
+            <div className="relative">
+              <img
+                src="/images/hero-business-landscape.jpg"
+                alt="Business landscape"
+                className="rounded-lg shadow-xl w-full h-96 object-cover"
+              />
+              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/10 rounded-lg -z-10"></div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -114,35 +137,6 @@ export default function Home() {
               <p className="text-muted-foreground">
                 Transformational growth through founder partnership, operational excellence, and disciplined value creation.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section id="about" className="section-spacing bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">About Legacy Transition Partners</h2>
-              <div className="accent-divider mb-6"></div>
-              <p className="text-lg text-muted-foreground mb-4">
-                We were founded to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth
-              </p>
-              <p className="text-lg text-muted-foreground mb-6">
-                With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term
-              </p>
-              <Button className="btn-outline">
-                About Us <ArrowRight className="ml-2 w-4 h-4" />
-              </Button>
-            </div>
-            <div className="relative">
-              <img
-                src="/images/hero-business-landscape.jpg"
-                alt="Business landscape"
-                className="rounded-lg shadow-xl w-full h-96 object-cover"
-              />
-              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/10 rounded-lg -z-10"></div>
             </div>
           </div>
         </div>
