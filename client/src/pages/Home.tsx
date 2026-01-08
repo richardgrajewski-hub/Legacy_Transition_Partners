@@ -101,6 +101,10 @@ export default function Home() {
       {/* Target Companies Section */}
       <section id="focus" className="section-spacing bg-background pb-64">
         <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Focus</h2>
+            <div className="accent-divider mx-auto"></div>
+          </div>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Target Companies */}
             <div className="card-elevated">
