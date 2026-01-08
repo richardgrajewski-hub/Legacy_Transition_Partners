@@ -163,39 +163,39 @@ export default function Home() {
             {/* Value Cards */}
             {[
               {
-                icon: <Building2 className="w-8 h-8" />,
+                image: "/images/value-legacy.png",
                 title: "Legacy",
                 description: "We preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
               },
               {
-                icon: <TrendingUp className="w-8 h-8" />,
+                image: "/images/value-integrity.png",
                 title: "Integrity",
                 description: "We communicate with complete honesty and transparency, ensuring founders always know where we stand and what to expect.",
               },
               {
-                icon: <Zap className="w-8 h-8" />,
+                image: "/images/value-humility.png",
                 title: "Humility",
                 description: "We approach every partnership with humility, recognizing that the founder's deep knowledge of their business is invaluable and that our role is to collaborate and enhance what they have built.",
               },
               {
-                icon: <Users className="w-8 h-8" />,
+                image: "/images/value-operational-excellence.png",
                 title: "Operational Excellence",
                 description: "We drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
               },
               {
-                icon: <Handshake className="w-8 h-8" />,
+                image: "/images/value-long-term.png",
                 title: "Long-Term Value Creation",
                 description: "We focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
               },
               {
-                icon: <Target className="w-8 h-8" />,
+                image: "/images/value-transparency.png",
                 title: "Transparency",
                 description: "We maintain open, honest communication about opportunities, challenges, and strategic decisions, ensuring founders are informed and confident in our partnership.",
               },
             ].map((value, idx) => (
               <div key={idx} className="card-elevated text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="text-primary">{value.icon}</div>
+                  <img src={value.image} alt={value.title} className="h-32 w-32 object-contain" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">{value.title}</h3>
                 <p className="text-muted-foreground">{value.description}</p>
