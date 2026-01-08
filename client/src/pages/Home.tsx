@@ -77,16 +77,16 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="section-spacing bg-gradient-to-br from-blue-50 to-indigo-50 pb-48">
+      <section id="about" className="section-spacing bg-slate-700 pb-48">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">About Legacy Transition Partners</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Legacy Transition Partners</h2>
               <div className="accent-divider mb-6"></div>
-              <p className="text-lg text-muted-foreground mb-4">
+              <p className="text-lg text-white/90 mb-4">
                 We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth.
               </p>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-lg text-white/90 mb-6">
                 With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term.
               </p>
             </div>
@@ -151,12 +151,12 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section id="values" className="section-spacing bg-gradient-to-br from-slate-50 to-blue-50">
+      <section id="values" className="section-spacing bg-slate-700">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Values</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-white/90 max-w-2xl mx-auto">
               Legacy, integrity, humility, and unwavering passion to implement clear, actionable strategies to deliver measurable and enduring growth.
             </p>
           </div>
@@ -189,12 +189,11 @@ export default function Home() {
                 description: "Open, honest, candid communication about opportunities, challenges, and strategic decisions.",
               },
             ].map((value, idx) => (
-              <div key={idx} className="card-elevated text-center">
-                <h3 className="text-xl font-bold mb-3">{value.title}</h3>
-                <p className="text-muted-foreground text-sm">{value.description}</p>
+              <div key={idx} className="bg-white rounded-lg p-6 text-center shadow-md">
+                <h3 className="text-xl font-bold mb-3 text-slate-700">{value.title}</h3>
+                <p className="text-slate-600 text-sm">{value.description}</p>
               </div>
-            ))}
-          </div>
+            ))}]          </div>
         </div>
       </section>
 
