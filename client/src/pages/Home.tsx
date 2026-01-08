@@ -152,10 +152,10 @@ export default function Home() {
       <section id="values" className="section-spacing bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Core Values</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our approach is guided by a core commitment to integrity and fueled by a passion for innovation. We partner with founders to implement clear, actionable strategies that honor their legacy while delivering measurable and enduring growth.
+              Partnering with founders through integrity, humility, and unwavering passion to implement clear, actionable strategies that honor their legacy while delivering measurable and enduring growth.
             </p>
           </div>
 
@@ -164,33 +164,33 @@ export default function Home() {
             {[
               {
                 icon: <Building2 className="w-8 h-8" />,
-                title: "Founder Partnership",
-                description: "We believe in genuine partnership with founders, respecting their vision while bringing institutional expertise.",
+                title: "Legacy",
+                description: "We preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
               },
               {
                 icon: <TrendingUp className="w-8 h-8" />,
-                title: "Operational Excellence",
-                description: "Driving efficiency and strategy to ensure sustainable growth and long-term profitability.",
+                title: "Integrity",
+                description: "We communicate with complete honesty and transparency, ensuring founders always know where we stand and what to expect.",
               },
               {
                 icon: <Zap className="w-8 h-8" />,
-                title: "Long-Term Perspective",
-                description: "Committed to creating enduring value by prioritizing sustainable growth over immediate results.",
+                title: "Humility",
+                description: "We approach every partnership with humility, recognizing that the founder's deep knowledge of their business is invaluable and that our role is to collaborate and enhance what they have built.",
               },
               {
                 icon: <Users className="w-8 h-8" />,
-                title: "Team Development",
-                description: "Building strong teams and developing talent to support business growth and succession.",
+                title: "Operational Excellence",
+                description: "We drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
               },
               {
                 icon: <Handshake className="w-8 h-8" />,
-                title: "Integrity & Trust",
-                description: "Operating with transparency and honesty in all partnerships and business dealings.",
+                title: "Long-Term Value Creation",
+                description: "We focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
               },
               {
                 icon: <Target className="w-8 h-8" />,
-                title: "Strategic Focus",
-                description: "Maintaining disciplined focus on essential services and businesses with strong fundamentals.",
+                title: "Transparency",
+                description: "We maintain open, honest communication about opportunities, challenges, and strategic decisions, ensuring founders are informed and confident in our partnership.",
               },
             ].map((value, idx) => (
               <div key={idx} className="card-elevated text-center">
