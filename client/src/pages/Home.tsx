@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Target, Briefcase, TrendingUp, Building2, Zap, Users, Handshake } from "lucide-react";
 import { useState, useEffect } from "react";
+import TeamSection from "./TeamSection";
 
 /**
  * Design System: Modern Institutional with Warm Accents
@@ -194,29 +195,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section id="contact" className="relative py-24 md:py-32 flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/images/hero-business-landscape.jpg')",
-          }}
-        >
-          <div className="absolute inset-0 bg-black/50"></div>
-        </div>
-
-        <div className="relative z-10 text-center px-4 max-w-2xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Scale Your Business?
-          </h2>
-          <p className="text-white text-lg mb-8 opacity-95">
-            Let's explore how Legacy Transition Partners can help your founder-owned business reach its full potential.
-          </p>
-          <Button className="btn-primary text-lg px-8 py-4">
-            Start a Conversation <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
-        </div>
-      </section>
+      {/* Team Section */}
+      <TeamSection />
 
       {/* Footer */}
       <footer className="bg-secondary text-secondary-foreground py-12">
