@@ -42,10 +42,7 @@ export default function TeamSection() {
               </div>
               <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
               <p className="text-lg font-semibold text-muted-foreground mb-4">{member.title}</p>
-              <p className="text-muted-foreground mb-6 leading-relaxed flex-grow">
-                {member.bio}
-              </p>
-              <div className="flex gap-6">
+              <div className="flex gap-6 mb-6">
                 <a
                   href={`mailto:${member.email}`}
                   className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold"
@@ -63,6 +60,9 @@ export default function TeamSection() {
                   LinkedIn
                 </a>
               </div>
+              <p className="text-muted-foreground mb-6 leading-relaxed flex-grow">
+                {member.bio}
+              </p>
             </div>
           ))}
         </div>
