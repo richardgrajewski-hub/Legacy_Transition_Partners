@@ -206,7 +206,10 @@ export default function Home() {
       <footer className="bg-secondary text-secondary-foreground py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
-            <h2 className="text-white text-4xl md:text-5xl font-bold mb-6 font-serif">Legacy Transition Partners</h2>
+            <div className="mb-6">
+              <h2 className="text-white text-5xl md:text-6xl font-bold leading-none font-serif">Legacy</h2>
+              <p className="text-white text-lg md:text-xl font-light font-serif tracking-wide">Transition Partners</p>
+            </div>
             <div>
               <h4 className="font-bold mb-2">Contact</h4>
               <p className="text-sm">
