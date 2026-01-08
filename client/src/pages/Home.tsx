@@ -206,14 +206,11 @@ export default function Home() {
       <footer className="bg-secondary text-secondary-foreground py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
-            <div className="mb-6">
-              <h2 className="text-white text-5xl md:text-6xl font-bold leading-none font-serif">Legacy</h2>
-              <p className="text-white text-lg md:text-xl font-light font-serif tracking-wide">Transition Partners</p>
-            </div>
+            <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-32 w-auto mb-6" />
             <div>
-              <h4 className="font-bold mb-2">Contact</h4>
-              <p className="text-sm">
-                <a href="mailto:info@legacytransitionpartners.com" className="hover:opacity-80 transition-opacity">
+              <h4 className="text-white font-bold mb-2">Contact</h4>
+              <p className="text-sm text-white">
+                <a href="mailto:info@legacytransitionpartners.com" className="text-white hover:opacity-80 transition-opacity">
                   info@legacytransitionpartners.com
                 </a>
               </p>
