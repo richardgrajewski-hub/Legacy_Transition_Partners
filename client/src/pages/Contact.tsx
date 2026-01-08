@@ -43,7 +43,7 @@ export default function Contact() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white shadow-md">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-12 w-auto" />
+          <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-20 md:h-28 w-auto" />
           <button
             onClick={() => setLocation("/")}
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-semibold"
