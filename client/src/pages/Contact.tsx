@@ -74,31 +74,27 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Contact Info Cards */}
-      <section className="py-16 bg-white">
+      {/* Contact Info and Form Section */}
+      <section className="py-24 md:py-32 bg-white">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center max-w-2xl mx-auto">
-            {/* Email Card */}
-            <div className="bg-background rounded-lg p-8 shadow-sm border border-border text-center w-full">
-              <div className="flex justify-center mb-4">
-                <Mail className="w-8 h-8 text-primary" />
+          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            {/* Email Card - Left Side */}
+            <div className="flex items-start">
+              <div className="bg-background rounded-lg p-8 shadow-sm border border-border text-center w-full">
+                <div className="flex justify-center mb-4">
+                  <Mail className="w-8 h-8 text-primary" />
+                </div>
+                <h3 className="font-bold text-lg mb-3">Email</h3>
+                <a
+                  href="mailto:info@legacytransitionpartners.com"
+                  className="text-primary hover:text-primary/80 transition-colors"
+                >
+                  info@legacytransitionpartners.com
+                </a>
               </div>
-              <h3 className="font-bold text-lg mb-3">Email</h3>
-              <a
-                href="mailto:info@legacytransitionpartners.com"
-                className="text-primary hover:text-primary/80 transition-colors"
-              >
-                info@legacytransitionpartners.com
-              </a>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Contact Form Section */}
-      <section className="py-24 md:py-32 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto">
+            {/* Contact Form - Right Side */}
             <div className="bg-white rounded-lg p-8 shadow-sm border border-border">
               {submitted ? (
                 <div className="text-center py-12">
