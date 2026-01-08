@@ -162,33 +162,33 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Value Cards */}
             {[
+            {
+              image: "/images/icon-legacy.png",
+              title: "Legacy",
+              description: "We preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
+            },
               {
-                image: "/images/value-legacy.png",
-                title: "Legacy",
-                description: "We preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
-              },
-              {
-                image: "/images/value-integrity.png",
+                image: "/images/icon-integrity.png",
                 title: "Integrity",
                 description: "We communicate with complete honesty and transparency, ensuring founders always know where we stand and what to expect.",
               },
               {
-                image: "/images/value-humility.png",
+                image: "/images/icon-humility.png",
                 title: "Humility",
                 description: "We approach every partnership with humility, recognizing that the founder's deep knowledge of their business is invaluable and that our role is to collaborate and enhance what they have built.",
               },
               {
-                image: "/images/value-operational-excellence.png",
+                image: "/images/icon-operational-excellence.png",
                 title: "Operational Excellence",
                 description: "We drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
               },
               {
-                image: "/images/value-long-term.png",
+                image: "/images/icon-long-term.png",
                 title: "Long-Term Value Creation",
                 description: "We focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
               },
               {
-                image: "/images/value-transparency.png",
+                image: "/images/icon-transparency.png",
                 title: "Transparency",
                 description: "We maintain open, honest communication about opportunities, challenges, and strategic decisions, ensuring founders are informed and confident in our partnership.",
               },
