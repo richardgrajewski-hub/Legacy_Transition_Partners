@@ -206,7 +206,7 @@ export default function Home() {
       <footer className="bg-secondary text-secondary-foreground py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
-            <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-32 w-auto mb-6" />
+            <h2 className="text-white text-4xl md:text-5xl font-bold mb-6 font-serif">Legacy Transition Partners</h2>
             <div>
               <h4 className="font-bold mb-2">Contact</h4>
               <p className="text-sm">
