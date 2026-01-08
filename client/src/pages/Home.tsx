@@ -193,7 +193,8 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-3 text-slate-700">{value.title}</h3>
                 <p className="text-slate-600 text-sm">{value.description}</p>
               </div>
-            ))}]          </div>
+            ))}
+          </div>
         </div>
       </section>
 
