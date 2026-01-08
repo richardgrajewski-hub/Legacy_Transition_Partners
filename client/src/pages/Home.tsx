@@ -218,7 +218,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-secondary-foreground/20 pt-8 text-center text-sm opacity-80">
-            <p>&copy; 2025 Legacy Transition Partners. All rights reserved.</p>
+            <p style={{color: '#ffffff'}}>&copy; 2025 Legacy Transition Partners. All rights reserved.</p>
           </div>
         </div>
       </footer>
