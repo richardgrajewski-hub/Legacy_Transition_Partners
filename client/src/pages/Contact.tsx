@@ -69,44 +69,19 @@ export default function Contact() {
       {/* Contact Info Cards */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="flex justify-center max-w-2xl mx-auto">
             {/* Email Card */}
-            <div className="bg-background rounded-lg p-8 shadow-sm border border-border text-center">
+            <div className="bg-background rounded-lg p-8 shadow-sm border border-border text-center w-full">
               <div className="flex justify-center mb-4">
                 <Mail className="w-8 h-8 text-primary" />
               </div>
               <h3 className="font-bold text-lg mb-3">Email</h3>
               <a
                 href="mailto:info@legacytransitionpartners.com"
-                className="text-primary hover:text-primary/80 transition-colors break-all"
+                className="text-primary hover:text-primary/80 transition-colors"
               >
                 info@legacytransitionpartners.com
               </a>
-            </div>
-
-            {/* Phone Card */}
-            <div className="bg-background rounded-lg p-8 shadow-sm border border-border text-center">
-              <div className="flex justify-center mb-4">
-                <Phone className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-bold text-lg mb-3">Phone</h3>
-              <a
-                href="tel:+1-248-974-7463"
-                className="text-primary hover:text-primary/80 transition-colors"
-              >
-                +1 (248) 974-7463
-              </a>
-            </div>
-
-            {/* Location Card */}
-            <div className="bg-background rounded-lg p-8 shadow-sm border border-border text-center">
-              <div className="flex justify-center mb-4">
-                <MapPin className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-bold text-lg mb-3">Location</h3>
-              <p className="text-foreground/80">
-                Michigan
-              </p>
             </div>
           </div>
         </div>
