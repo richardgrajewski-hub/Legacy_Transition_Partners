@@ -156,7 +156,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Integrity, humility, and unwavering passion to implement clear, actionable strategies that honor legacy while delivering measurable and enduring growth.
+              Legacy, integrity, humility, and unwavering passion to implement clear, actionable strategies to deliver measurable and enduring growth.
             </p>
           </div>
 
@@ -169,7 +169,7 @@ export default function Home() {
               },
               {
                 title: "Integrity",
-                description: "Operate with transparent stewardship, aligning investor's and founder's objectives ensuring actions match commitments.",
+                description: "Operate with transparent stewardship, aligning founder's and investor's objectives ensuring actions match commitments.",
               },
               {
                 title: "Humility",
@@ -185,7 +185,7 @@ export default function Home() {
               },
               {
                 title: "Transparency",
-                description: "Open, honest, candid communication about opportunities, challenges, and strategic decisions",
+                description: "Open, honest, candid communication about opportunities, challenges, and strategic decisions.",
               },
             ].map((value, idx) => (
               <div key={idx} className="card-elevated text-center">
