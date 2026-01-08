@@ -163,40 +163,31 @@ export default function Home() {
             {/* Value Cards */}
             {[
               {
-                icon: "/images/icon-legacy-simple.png",
                 title: "Legacy",
                 description: "We preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
               },
               {
-                icon: "/images/icon-integrity-simple.png",
                 title: "Integrity",
                 description: "We communicate with complete honesty and transparency, ensuring founders always know where we stand and what to expect.",
               },
               {
-                icon: "/images/icon-humility-simple.png",
                 title: "Humility",
                 description: "We approach every partnership with humility, recognizing that the founder's deep knowledge of their business is invaluable and that our role is to collaborate and enhance what they have built.",
               },
               {
-                icon: "/images/icon-operational-simple.png",
                 title: "Operational Excellence",
                 description: "We drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
               },
               {
-                icon: "/images/icon-longterm-simple.png",
                 title: "Long-Term Value Creation",
                 description: "We focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
               },
               {
-                icon: "/images/icon-transparency-simple.png",
                 title: "Transparency",
                 description: "We maintain open, honest communication about opportunities, challenges, and strategic decisions, ensuring founders are informed and confident in our partnership.",
               },
             ].map((value, idx) => (
               <div key={idx} className="card-elevated text-center">
-                <div className="flex justify-center mb-4">
-                  <img src={value.icon} alt={value.title} className="h-16 w-16" />
-                </div>
                 <h3 className="text-xl font-bold mb-3">{value.title}</h3>
                 <p className="text-muted-foreground text-sm">{value.description}</p>
               </div>
