@@ -42,7 +42,8 @@ export default function Contact() {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white shadow-md">
-        <div className="container mx-auto px-4 py-0 flex items-center justify-between">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-12 w-auto" />
           <button
             onClick={() => setLocation("/")}
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-semibold"
