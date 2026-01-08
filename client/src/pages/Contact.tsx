@@ -54,14 +54,22 @@ export default function Contact() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-24 md:py-32 bg-gradient-to-br from-primary/5 to-primary/10 mt-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Get in Touch</h1>
-            <div className="accent-divider mx-auto mb-6"></div>
-            <p className="text-lg text-foreground/80">
-              Ready to explore a partnership? We'd love to hear from you. Fill out the form below or reach out directly.
-            </p>
+      <section className="relative mt-20 overflow-hidden">
+        <div className="relative h-96 md:h-[500px] w-full">
+          <img
+            src="/images/contact-hero.jpg"
+            alt="Get in Touch"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center max-w-3xl mx-auto px-4">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Get in Touch</h1>
+              <div className="accent-divider mx-auto mb-6"></div>
+              <p className="text-lg text-white/90">
+                Ready to explore a partnership? We'd love to hear from you. Fill out the form below or reach out directly.
+              </p>
+            </div>
           </div>
         </div>
       </section>
