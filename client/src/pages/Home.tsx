@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Target, Briefcase, TrendingUp, Building2, Zap, Users, Handshake } from "lucide-react";
 import { useState, useEffect } from "react";
 import TeamSection from "./TeamSection";
+import ContactForm from "./ContactForm";
 
 /**
  * Design System: Modern Institutional with Warm Accents
@@ -35,7 +36,9 @@ export default function Home() {
             <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Core Values</a>
             <a href="#team" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
           </div>
-          <Button className="btn-primary font-semibold">Contact Us</Button>
+          <a href="#contact" className="inline-block">
+            <Button className="btn-primary font-semibold">Contact Us</Button>
+          </a>
         </div>
       </nav>
 
@@ -197,6 +200,9 @@ export default function Home() {
 
       {/* Team Section */}
       <TeamSection />
+
+      {/* Contact Form Section */}
+      <ContactForm />
 
       {/* Footer */}
       <footer className="bg-secondary text-secondary-foreground py-12">
