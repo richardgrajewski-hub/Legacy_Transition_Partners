@@ -121,8 +121,8 @@ export default function Home() {
                 <h3 className="text-xl font-bold">Industries</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Commercial & Facility Services</li>
-                <li>• Infrastructure/Industrial Services</li>
+                <li>• Commercial, Facility, & Residential Services</li>
+                <li>• Infrastructure & Industrial Services</li>
                 <li>• Professional Services</li>
                 <li>• Specialty Distribution</li>
               </ul>
