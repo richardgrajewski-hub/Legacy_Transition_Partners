@@ -203,7 +203,7 @@ export default function Home() {
 
 
       {/* Footer */}
-      <footer className="bg-secondary text-secondary-foreground py-12">
+      <footer className="bg-slate-700 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
             <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-32 w-auto mb-6" />
@@ -217,7 +217,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-t border-secondary-foreground/20 pt-8 text-center text-sm opacity-80">
+          <div className="border-t border-white/20 pt-8 text-center text-sm opacity-80">
             <p style={{color: '#ffffff'}}>&copy; 2025 Legacy Transition Partners. All rights reserved.</p>
           </div>
         </div>
