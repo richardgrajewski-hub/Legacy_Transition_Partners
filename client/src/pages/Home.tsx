@@ -83,7 +83,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">About Legacy Transition Partners</h2>
               <div className="accent-divider mb-6"></div>
               <p className="text-lg text-muted-foreground mb-4">
-                We were founded to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth.
+                We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
                 With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term.
