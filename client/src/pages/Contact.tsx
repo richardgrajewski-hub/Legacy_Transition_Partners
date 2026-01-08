@@ -47,6 +47,7 @@ export default function Contact() {
             <img src="/images/ltp-logo.png" alt="Legacy Transition Partners" className="h-20 md:h-28 w-auto" />
           </div>
           <div className="hidden md:flex items-center gap-8">
+            <a href="/#home" className="text-foreground hover:text-primary transition-colors font-semibold">Home</a>
             <a href="/#about" className="text-foreground hover:text-primary transition-colors font-semibold">About Us</a>
             <a href="/#focus" className="text-foreground hover:text-primary transition-colors font-semibold">Our Focus</a>
             <a href="/#values" className="text-foreground hover:text-primary transition-colors font-semibold">Core Values</a>
