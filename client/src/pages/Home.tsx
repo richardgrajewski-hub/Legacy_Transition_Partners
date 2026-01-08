@@ -37,9 +37,7 @@ export default function Home() {
             <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold">Core Values</a>
             <a href="#team" className="text-foreground hover:text-primary transition-colors font-semibold">Team</a>
           </div>
-          <a href="/contact" className="inline-block">
-            <Button className="btn-primary font-semibold">Contact Us</Button>
-          </a>
+
         </div>
       </nav>
 
