@@ -66,7 +66,7 @@ export default function Home() {
           ></path>
         </svg>
 
-        <div className="relative z-10 text-center px-4 max-w-3xl">
+        <div className="relative z-10 text-center px-4 max-w-5xl">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight" style={{paddingTop: '600px'}}>
             Partnering with Founders to Build Lasting Legacies
           </h1>
