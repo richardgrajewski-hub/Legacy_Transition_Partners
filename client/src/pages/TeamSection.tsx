@@ -26,7 +26,7 @@ export default function TeamSection() {
     <section id="team" className="section-spacing bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Team</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#2c4a7c'}}>Team</h2>
           <div className="accent-divider mx-auto"></div>
         </div>
 
