@@ -106,7 +106,7 @@ export default function Home() {
       <section id="focus" className="section-spacing bg-white pb-64">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Focus</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Our Focus</h2>
             <div className="accent-divider mx-auto"></div>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -114,7 +114,7 @@ export default function Home() {
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Target className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold">Target Criteria</h3>
+                <h3 className="text-xl font-bold text-foreground">Target Criteria</h3>
               </div>
               <p className="text-foreground font-semibold text-lg mb-2">$1-$5M EBITDA</p>
               <p className="text-muted-foreground">
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Briefcase className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold">Industries</h3>
+                <h3 className="text-xl font-bold text-foreground">Industries</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Commercial, Facility, & Residential Services</li>
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <TrendingUp className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold">Strategy</h3>
+                <h3 className="text-xl font-bold text-foreground">Strategy</h3>
               </div>
               <p className="text-muted-foreground">
                 Generate transformational growth through a hands on partnership approach with founders and management teams focused on operational excellence and executing a disciplined value creation plan.
@@ -190,7 +190,7 @@ export default function Home() {
               },
             ].map((value, idx) => (
               <div key={idx} className="bg-white rounded-lg p-6 text-center shadow-md">
-                <h3 className="text-xl font-bold mb-3 text-slate-700">{value.title}</h3>
+                <h3 className="text-xl font-bold mb-3 text-foreground">{value.title}</h3>
                 <p className="text-slate-600 text-sm">{value.description}</p>
               </div>
             ))}
