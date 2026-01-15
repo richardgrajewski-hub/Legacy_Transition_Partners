@@ -29,7 +29,7 @@ export default function Home() {
       <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? "bg-white shadow-md" : "bg-white"}`} style={{height: '127px'}}>
         <div className="container mx-auto px-4 py-0 flex items-center justify-between" style={{height: '114px'}}>
           <div className="flex items-center gap-3">
-            <img src="/images/ltp-logo-header.jpg" alt="Legacy Transition Partners" className="h-32 md:h-40 w-auto" />
+            <img src="/images/ltp-logo-header.jpg" alt="Legacy Transition Partners" className="h-32 md:h-40 w-auto" style={{height: '103px'}} />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#home" className="text-foreground hover:text-primary transition-colors font-semibold">Home</a>
