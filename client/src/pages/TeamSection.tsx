@@ -41,11 +41,11 @@ export default function TeamSection() {
                 />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
-              <p className="text-lg font-semibold text-muted-foreground mb-4">{member.title}</p>
+              <p className="text-lg font-semibold text-muted-foreground mb-4" style={{fontSize: '20px'}}>{member.title}</p>
               <div className="flex gap-6 mb-6">
                 <a
                   href={`mailto:${member.email}`}
-                  className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold" style={{fontSize: '20px'}}
                 >
                   <Mail className="w-5 h-5" />
                   Email
@@ -54,13 +54,13 @@ export default function TeamSection() {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold" style={{fontSize: '20px'}}
                 >
                   <Linkedin className="w-5 h-5" />
                   LinkedIn
                 </a>
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed flex-grow">
+              <p className="text-muted-foreground mb-6 leading-relaxed flex-grow" style={{fontSize: '20px'}}>
                 {member.bio}
               </p>
             </div>

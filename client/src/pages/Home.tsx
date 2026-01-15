@@ -83,10 +83,10 @@ export default function Home() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Legacy Transition Partners</h2>
               <div className="accent-divider mb-6"></div>
-              <p className="text-lg text-white/90 mb-4">
+              <p className="text-lg text-white/90 mb-4" style={{fontSize: '20px'}}>
                 We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth.
               </p>
-              <p className="text-lg text-white/90 mb-6">
+              <p className="text-lg text-white/90 mb-6" style={{fontSize: '20px'}}>
                 With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term.
               </p>
             </div>
@@ -117,7 +117,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Target Criteria</h3>
               </div>
               <p className="text-foreground font-semibold text-lg mb-2">$1-$5M EBITDA</p>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground" style={{fontSize: '20px'}}>
                 Founder-owned businesses based in the U.S. providing essential services with consistent performance, strong growth potential, and operating in highly fragmented sectors.
               </p>
             </div>
@@ -129,10 +129,10 @@ export default function Home() {
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Industries</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Commercial, Facility, & Residential Services</li>
-                <li>• Infrastructure & Industrial Services</li>
-                <li>• Professional Services</li>
-                <li>• Specialty Distribution</li>
+                <li style={{fontSize: '20px'}}>• Commercial, Facility, & Residential Services</li>
+                <li style={{fontSize: '20px'}}>• Infrastructure & Industrial Services</li>
+                <li style={{fontSize: '20px'}}>• Professional Services</li>
+                <li style={{fontSize: '20px'}}>• Specialty Distribution</li>
               </ul>
             </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
                 <TrendingUp className="w-8 h-8 text-primary" />
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Strategy</h3>
               </div>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground" style={{fontSize: '20px'}}>
                 Generate transformational growth through a hands on partnership approach with founders and management teams focused on operational excellence and executing a disciplined value creation plan.
               </p>
             </div>
@@ -156,7 +156,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
-            <p className="text-lg text-white/90 max-w-2xl mx-auto">
+            <p className="text-lg text-white/90 max-w-2xl mx-auto" style={{fontSize: '20px'}}>
               Legacy, integrity, humility, and unwavering passion to implement clear, actionable strategies to deliver measurable and enduring growth.
             </p>
           </div>
@@ -190,8 +190,8 @@ export default function Home() {
               },
             ].map((value, idx) => (
               <div key={idx} className="bg-white rounded-lg p-6 text-center shadow-md">
-                <h3 className="text-xl font-bold mb-3" style={{color: '#2c4a7c'}}>{value.title}</h3>
-                <p className="text-slate-600 text-sm">{value.description}</p>
+                <h3 className="text-xl font-bold mb-3" style={{color: '#2c4a7c', fontSize: '26px'}}>{value.title}</h3>
+                <p className="text-slate-600 text-sm" style={{fontSize: '20px'}}>{value.description}</p>
               </div>
             ))}
           </div>
@@ -211,7 +211,7 @@ export default function Home() {
             <div>
               <h4 className="text-white font-bold mb-2">Contact</h4>
               <p className="text-sm text-white">
-                <a href="mailto:info@legacytransitionpartners.com" className="text-white hover:opacity-80 transition-opacity">
+                <a href="mailto:info@legacytransitionpartners.com" className="text-white hover:opacity-80 transition-opacity" style={{fontSize: '20px'}}>
                   info@legacytransitionpartners.com
                 </a>
               </p>
