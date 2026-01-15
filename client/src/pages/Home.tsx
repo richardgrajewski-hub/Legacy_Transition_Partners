@@ -207,10 +207,7 @@ export default function Home() {
       <footer className="bg-slate-700 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
-            <div className="mb-8">
-              <h2 className="text-white text-5xl font-bold leading-tight">Legacy</h2>
-              <p className="text-white text-2xl font-light tracking-wide">Transition Partners</p>
-            </div>
+            <img src="/images/ltp-logo-footer.png" alt="Legacy Transition Partners" className="h-40 w-auto mb-8" />
             <div>
               <h4 className="text-white font-bold mb-2">Contact</h4>
               <p className="text-sm text-white">
