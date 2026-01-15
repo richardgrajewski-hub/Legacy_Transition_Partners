@@ -67,7 +67,7 @@ export default function Home() {
         </svg>
 
         <div className="relative z-10 text-center px-4 max-w-3xl">
-          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight" style={{paddingTop: '435px'}}>
             Partnering with Founders to Build Legacies that Last
           </h1>
           <p className="text-white text-lg md:text-xl mb-8 opacity-95">
