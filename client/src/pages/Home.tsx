@@ -156,7 +156,7 @@ export default function Home() {
           {/* Industry Focus Section */}
           <div className="mt-16 pt-12 border-t border-slate-200">
             <div className="text-center mb-12">
-              <p className="text-lg font-semibold mb-4" style={{fontSize: '24px', color: '#2c4a7c'}}>
+              <p className="text-lg font-semibold mb-4" style={{fontSize: '30px', color: '#2c4a7c', fontWeight: '700', fontFamily: 'Georgia, serif'}}>
                 Investing in essential services in the lower middle market, including but not limited to:
               </p>
             </div>
@@ -174,7 +174,7 @@ export default function Home() {
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
                   <div className="text-4xl font-bold text-slate-300">Icon</div>
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Specialty Distribution</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Industrial Services</h4>
               </div>
 
               {/* Industry Category 3 */}
@@ -190,7 +190,7 @@ export default function Home() {
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
                   <div className="text-4xl font-bold text-slate-300">Icon</div>
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Industrial Services</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Specialty Distribution</h4>
               </div>
             </div>
           </div>
