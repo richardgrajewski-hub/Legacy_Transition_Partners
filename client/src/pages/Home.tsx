@@ -180,7 +180,7 @@ export default function Home() {
               {/* Industry Category 3 */}
               <div className="text-center">
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
-                  <img src="/images/professional-services.png" alt="Professional Services" className="w-full h-full object-contain" />
+                  <img src="/images/residential-services.png" alt="Residential Services" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Residential Services</h4>
               </div>
