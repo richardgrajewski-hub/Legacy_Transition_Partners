@@ -164,7 +164,7 @@ export default function Home() {
               {/* Industry Category 1 */}
               <div className="text-center">
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
-                  <img src="/images/commercial-facility-icon.png" alt="Commercial & Facility Services Icon" className="w-full h-full object-contain" />
+                  <img src="/images/commercial-facility-icon.png" alt="Commercial & Facility Services Icon" className="h-full object-contain" style={{maxWidth: '200px'}} />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Commercial & Facility Services</h4>
               </div>
@@ -172,7 +172,7 @@ export default function Home() {
               {/* Industry Category 2 */}
               <div className="text-center">
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
-                  <img src="/images/industrial-services-icon.png" alt="Industrial Services Icon" className="w-full h-full object-contain" />
+                  <img src="/images/industrial-services-icon.png" alt="Industrial Services Icon" className="h-full object-contain" style={{maxWidth: '200px'}} />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Industrial Services</h4>
               </div>
@@ -180,7 +180,7 @@ export default function Home() {
               {/* Industry Category 3 */}
               <div className="text-center">
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
-                  <img src="/images/residential-services-icon.png" alt="Residential Services Icon" className="w-full h-full object-contain" />
+                  <img src="/images/residential-services-icon.png" alt="Residential Services Icon" className="h-full object-contain" style={{maxWidth: '200px'}} />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Residential Services</h4>
               </div>
@@ -188,7 +188,7 @@ export default function Home() {
               {/* Industry Category 4 */}
               <div className="text-center">
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
-                  <img src="/images/specialty-distribution-icon.png" alt="Specialty Distribution Icon" className="w-full h-full object-contain" />
+                  <img src="/images/specialty-distribution-icon.png" alt="Specialty Distribution Icon" className="h-full object-contain" style={{maxWidth: '200px'}} />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Specialty Distribution</h4>
               </div>
