@@ -15,15 +15,24 @@ import { MobileMenu } from "../components/MobileMenu";
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [parallaxOffset, setParallaxOffset] = useState(0);
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
       setParallaxOffset(window.scrollY * 0.5);
+      setShowScrollTop(window.scrollY > 300);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -290,6 +299,16 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Scroll to Top Button */}
+      <button
+        onClick={scrollToTop}
+        className={`scroll-to-top ${showScrollTop ? 'visible' : ''}`}
+        aria-label="Scroll to top"
+        title="Scroll to top"
+      >
+        ↑
+      </button>
     </div>
   );
 }
