@@ -77,26 +77,37 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="section-spacing bg-slate-700 pb-48">
+      <section id="about" className="section-spacing bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Legacy Transition Partners</h2>
-              <div className="accent-divider mb-6"></div>
-              <p className="text-lg text-white/90 mb-4" style={{fontSize: '20px'}}>
-                We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach. Guided by our core values, we partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth.
-              </p>
-              <p className="text-lg text-white/90 mb-6" style={{fontSize: '20px'}}>
-                With a proven track record in operational excellence, growth strategy, and founder transitions, we bring the expertise and perspective to help businesses thrive for the long term.
-              </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* About Us Column */}
+            <div className="text-center">
+              <h3 className="text-2xl md:text-3xl font-bold mb-6" style={{color: '#2c4a7c'}}>About Us</h3>
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
+                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
+                  We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach.
+                </p>
+              </div>
             </div>
-            <div className="relative">
-              <img
-                src="/images/hero-business-landscape.jpg"
-                alt="Business landscape"
-                className="rounded-lg shadow-xl w-full h-96 object-cover"
-              />
-              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/10 rounded-lg -z-10"></div>
+
+            {/* What We Do Column */}
+            <div className="text-center">
+              <h3 className="text-2xl md:text-3xl font-bold mb-6" style={{color: '#2c4a7c'}}>What We Do</h3>
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
+                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
+                  We partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth. We bring proven expertise in operational excellence, growth strategy, and founder transitions.
+                </p>
+              </div>
+            </div>
+
+            {/* Why We Are Different Column */}
+            <div className="text-center">
+              <h3 className="text-2xl md:text-3xl font-bold mb-6" style={{color: '#2c4a7c'}}>Why We Are Different</h3>
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
+                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
+                  Our approach and capital are flexible and long-term oriented. We partner with business owners seeking a leadership transition as well as management teams looking to grow with new ownership. We operate with humility and transparency.
+                </p>
+              </div>
             </div>
           </div>
         </div>
