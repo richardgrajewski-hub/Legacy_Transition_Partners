@@ -127,9 +127,15 @@ export default function Home() {
                 <Target className="w-8 h-8 text-primary" />
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>What We Look For</h3>
               </div>
-              <p className="text-muted-foreground" style={{fontSize: '20px'}}>
-                Established lower middle market companies with strong operating histories, consistent revenue and profitability, recurring revenue models or re-occurring purchase patterns, and strong unit economics. We focus on essential services and products in highly fragmented sectors with durable secular tailwinds.
-              </p>
+              <ul className="space-y-2 text-muted-foreground">
+                <li style={{fontSize: '20px'}}>• Mature lower middle market businesses</li>
+                <li style={{fontSize: '20px'}}>• Large fragmented industries with long-term secular growth drivers</li>
+                <li style={{fontSize: '20px'}}>• Consistent profitability and revenue stability</li>
+                <li style={{fontSize: '20px'}}>• Predictable, recurring revenue streams</li>
+                <li style={{fontSize: '20px'}}>• Attractive unit economics</li>
+                <li style={{fontSize: '20px'}}>• Capital-efficient operations</li>
+                <li style={{fontSize: '20px'}}>• Organic and acquisition growth potential</li>
+              </ul>
             </div>
 
             {/* Investment Parameters */}
