@@ -6,7 +6,7 @@ export default function TeamSection() {
       id: 1,
       name: "Mike Podelnyk",
       title: "Founding Partner",
-      image: "/images/mike-headshot-adjusted.jpg",
+      image: "/images/mike-headshot.jpg",
       bio: "Mike brings extensive experience in private equity and operational excellence. With a proven track record in founder transitions and growth strategy, he is dedicated to building lasting partnerships with exceptional businesses.",
       email: "mike@legacytransitionpartners.com",
       linkedin: "https://www.linkedin.com/in/michael-podelnyk/"
@@ -15,7 +15,7 @@ export default function TeamSection() {
       id: 2,
       name: "Rich Grajewski",
       title: "Founding Partner",
-      image: "/images/rich-headshot-adjusted.jpg",
+      image: "/images/rich-headshot.jpg",
       bio: "Rich combines deep operational expertise with a collaborative approach to founder partnerships. His background in growth operations and investment strategy enables him to unlock transformational value for portfolio companies.",
       email: "rich@legacytransitionpartners.com",
       linkedin: "https://www.linkedin.com/in/richard-grajewski/"
@@ -33,6 +33,13 @@ export default function TeamSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {teamMembers.map((member) => (
             <div key={member.id} className="flex flex-col">
+              <div className="mb-6 overflow-hidden rounded-lg bg-gray-200 h-96">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
               <p className="text-lg font-semibold text-muted-foreground mb-4" style={{fontSize: '20px'}}>{member.title}</p>
               <div className="flex gap-6 mb-6">
