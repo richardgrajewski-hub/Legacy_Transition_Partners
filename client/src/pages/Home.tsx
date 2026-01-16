@@ -152,6 +152,48 @@ export default function Home() {
               </ul>
             </div>
           </div>
+
+          {/* Industry Focus Section */}
+          <div className="mt-16 pt-12 border-t border-slate-200">
+            <div className="text-center mb-12">
+              <p className="text-lg text-muted-foreground mb-4" style={{fontSize: '20px'}}>
+                Investing in essential services and products in the lower middle market, including but not limited to:
+              </p>
+            </div>
+            <div className="grid md:grid-cols-4 gap-8">
+              {/* Industry Category 1 */}
+              <div className="text-center">
+                <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
+                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                </div>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Commercial & Facility Services</h4>
+              </div>
+
+              {/* Industry Category 2 */}
+              <div className="text-center">
+                <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
+                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                </div>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Specialty Distribution</h4>
+              </div>
+
+              {/* Industry Category 3 */}
+              <div className="text-center">
+                <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
+                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                </div>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Professional Services</h4>
+              </div>
+
+              {/* Industry Category 4 */}
+              <div className="text-center">
+                <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
+                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                </div>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Infrastructure & Industrial</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
