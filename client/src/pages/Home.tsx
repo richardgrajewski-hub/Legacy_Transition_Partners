@@ -182,7 +182,7 @@ export default function Home() {
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
                   <img src="/images/professional-services.png" alt="Professional Services" className="w-full h-full object-contain" />
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Professional Services</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Residential Services</h4>
               </div>
 
               {/* Industry Category 4 */}
