@@ -15,7 +15,7 @@ export default function TeamSection() {
       id: 2,
       name: "Rich Grajewski",
       title: "Founding Partner",
-      image: "/images/rich-headshot-adjusted.png",
+      image: "/images/rich-headshot-final.png",
       bio: "Rich combines deep operational expertise with a collaborative approach to founder partnerships. His background in growth operations and investment strategy enables him to unlock transformational value for portfolio companies.",
       email: "rich@legacytransitionpartners.com",
       linkedin: "https://www.linkedin.com/in/richard-grajewski/"
