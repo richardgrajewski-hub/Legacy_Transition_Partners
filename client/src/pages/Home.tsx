@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="section-spacing bg-slate-700">
+      <section id="about" className="section-spacing bg-slate-700 pattern-diagonal">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             {/* About Us Column */}
@@ -114,7 +114,7 @@ export default function Home() {
       </section>
 
       {/* Target Companies Section */}
-      <section id="focus" className="section-spacing bg-white pb-64">
+      <section id="focus" className="section-spacing bg-white pb-64 pattern-diagonal">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#2c4a7c'}}>Our Focus</h2>
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section id="values" className="section-spacing bg-slate-700">
+      <section id="values" className="section-spacing bg-slate-700 pattern-diagonal">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Core Values</h2>
@@ -267,7 +267,7 @@ export default function Home() {
 
 
       {/* Footer */}
-      <footer className="bg-slate-700 text-white py-12">
+      <footer className="bg-slate-700 text-white py-12 pattern-diagonal">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
             <img src="/images/ltp-logo-footer.png" alt="Legacy Transition Partners" className="h-40 w-auto mb-8" style={{filter: 'brightness(0) invert(1)'}} />
