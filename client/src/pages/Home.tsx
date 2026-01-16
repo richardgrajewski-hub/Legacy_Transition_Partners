@@ -164,7 +164,7 @@ export default function Home() {
               {/* Industry Category 1 */}
               <div className="text-center">
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
-                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                  <img src="/images/commercial-facility-services.png" alt="Commercial & Facility Services" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Commercial & Facility Services</h4>
               </div>
@@ -172,7 +172,7 @@ export default function Home() {
               {/* Industry Category 2 */}
               <div className="text-center">
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
-                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                  <img src="/images/industrial-services.png" alt="Industrial Services" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Industrial Services</h4>
               </div>
@@ -180,7 +180,7 @@ export default function Home() {
               {/* Industry Category 3 */}
               <div className="text-center">
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
-                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                  <img src="/images/professional-services.png" alt="Professional Services" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Professional Services</h4>
               </div>
@@ -188,7 +188,7 @@ export default function Home() {
               {/* Industry Category 4 */}
               <div className="text-center">
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
-                  <div className="text-4xl font-bold text-slate-300">Icon</div>
+                  <img src="/images/specialty-distribution.png" alt="Specialty Distribution" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Specialty Distribution</h4>
               </div>
