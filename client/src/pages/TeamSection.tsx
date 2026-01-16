@@ -37,7 +37,7 @@ export default function TeamSection() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain" style={{backgroundColor: '#ffffff'}}
                 />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
