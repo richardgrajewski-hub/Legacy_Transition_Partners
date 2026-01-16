@@ -163,6 +163,9 @@ export default function Home() {
             <div className="grid md:grid-cols-4 gap-8">
               {/* Industry Category 1 */}
               <div className="text-center">
+                <div className="mb-4 h-32 flex items-center justify-center">
+                  <img src="/images/commercial-facility-icon.png" alt="Commercial & Facility Services Icon" className="h-full object-contain" />
+                </div>
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
                   <img src="/images/commercial-facility-services.png" alt="Commercial & Facility Services" className="w-full h-full object-contain" />
                 </div>
@@ -171,6 +174,9 @@ export default function Home() {
 
               {/* Industry Category 2 */}
               <div className="text-center">
+                <div className="mb-4 h-32 flex items-center justify-center">
+                  <img src="/images/industrial-services-icon.png" alt="Industrial Services Icon" className="h-full object-contain" />
+                </div>
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
                   <img src="/images/industrial-services.png" alt="Industrial Services" className="w-full h-full object-contain" />
                 </div>
@@ -179,6 +185,9 @@ export default function Home() {
 
               {/* Industry Category 3 */}
               <div className="text-center">
+                <div className="mb-4 h-32 flex items-center justify-center">
+                  <img src="/images/residential-services-icon.png" alt="Residential Services Icon" className="h-full object-contain" />
+                </div>
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
                   <img src="/images/residential-services.png" alt="Residential Services" className="w-full h-full object-contain" />
                 </div>
@@ -187,6 +196,9 @@ export default function Home() {
 
               {/* Industry Category 4 */}
               <div className="text-center">
+                <div className="mb-4 h-32 flex items-center justify-center">
+                  <img src="/images/specialty-distribution-icon.png" alt="Specialty Distribution Icon" className="h-full object-contain" />
+                </div>
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
                   <img src="/images/specialty-distribution.png" alt="Specialty Distribution" className="w-full h-full object-contain" />
                 </div>
