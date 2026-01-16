@@ -33,11 +33,11 @@ export default function TeamSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {teamMembers.map((member) => (
             <div key={member.id} className="flex flex-col">
-              <div className="mb-6 overflow-hidden rounded-lg bg-gray-200 h-96">
+              <div className="mb-6 overflow-hidden rounded-lg bg-gray-200 h-96 flex items-center justify-center">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
