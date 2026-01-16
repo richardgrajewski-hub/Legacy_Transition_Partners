@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {/* What We Look For */}
-            <div className="card-elevated">
+            <div className="card-elevated" style={{borderLeft: '4px solid #D4A574'}}>
               <div className="flex items-center gap-3 mb-4">
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>What We Look For</h3>
               </div>
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
 
             {/* Investment Parameters */}
-            <div className="card-elevated">
+            <div className="card-elevated" style={{borderLeft: '4px solid #D4A574'}}>
               <div className="flex items-center gap-3 mb-4">
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>Investment Parameters</h3>
               </div>

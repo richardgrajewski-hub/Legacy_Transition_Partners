@@ -56,26 +56,26 @@
   --chart-4: #5F7C9E;
   --chart-5: #708DAD;
   --radius: 0.5rem;
-  --background: #F5F7FA;
-  --foreground: #1A1A1A;
+  --background: #FAFBFC;
+  --foreground: #1A1F36;
   --card: #FFFFFF;
-  --card-foreground: #1A1A1A;
+  --card-foreground: #1A1F36;
   --popover: #FFFFFF;
-  --popover-foreground: #1A1A1A;
-  --secondary: #2C4A7C;
+  --popover-foreground: #1A1F36;
+  --secondary: #5B8EC6;
   --secondary-foreground: #FFFFFF;
   --muted: #E8ECEF;
   --muted-foreground: #666666;
-  --accent: #2C4A7C;
+  --accent: #D4A574;
   --accent-foreground: #FFFFFF;
   --destructive: #DC2626;
   --destructive-foreground: #FFFFFF;
-  --border: #D4D9E0;
+  --border: #E5E7EB;
   --input: #FFFFFF;
   --ring: #2C4A7C;
   --sidebar: #2C4A7C;
   --sidebar-foreground: #FFFFFF;
-  --sidebar-accent: #2C4A7C;
+  --sidebar-accent: #D4A574;
   --sidebar-accent-foreground: #FFFFFF;
   --sidebar-border: #1A3052;
   --sidebar-ring: #2C4A7C;
@@ -128,7 +128,7 @@
     @apply bg-background text-foreground;
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.75;
     font-weight: 400;
   }
   h1, h2, h3, h4, h5, h6 {
@@ -156,6 +156,7 @@
   p {
     margin-bottom: 1rem;
     color: var(--foreground);
+    line-height: 1.75;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -218,16 +219,18 @@
   
   /* Custom button styling for warm accent */
   .btn-primary {
-    @apply bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium hover:shadow-lg hover:scale-105;
+    @apply bg-accent text-accent-foreground px-8 py-3 rounded-md font-medium hover:shadow-lg hover:scale-105 transition-all;
   }
   
   .btn-outline {
     @apply border-2 border-primary text-primary px-6 py-3 rounded-md font-medium hover:bg-primary hover:text-primary-foreground;
   }
   
-  /* Card with soft shadow */
+  /* Card with soft shadow and subtle gradient */
   .card-elevated {
-    @apply bg-card text-card-foreground rounded-lg shadow-md hover:shadow-xl p-6;
+    @apply bg-card text-card-foreground rounded-lg shadow-sm hover:shadow-lg p-6 transition-all;
+    background: linear-gradient(135deg, #FFFFFF 0%, #F9FBFC 100%);
+    border: 1px solid #E5E7EB;
   }
   
   /* Geometric accent line */
@@ -235,8 +238,8 @@
     @apply w-16 h-1 bg-primary rounded-full;
   }
   
-  /* Section spacing */
+  /* Section spacing - increased for more generous whitespace */
   .section-spacing {
-    @apply py-20 md:py-32;
+    @apply py-24 md:py-40;
   }
 }
