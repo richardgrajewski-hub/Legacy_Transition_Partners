@@ -51,7 +51,7 @@ export default function Home() {
             backgroundAttachment: "fixed",
           }}
         >
-          <div className="absolute inset-0 bg-black/35"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
 
         {/* Curved bottom edge */}
@@ -67,7 +67,7 @@ export default function Home() {
         </svg>
 
         <div className="relative z-10 text-center px-4 max-w-5xl">
-          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight" style={{paddingTop: '520px'}}>
+          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight" style={{paddingTop: '520px', textShadow: '0 2px 8px rgba(0,0,0,0.3)'}}>
             Partnering with Founders to Build Lasting Legacies
           </h1>
           <p className="text-white text-lg md:text-xl mb-8 opacity-95">
@@ -126,14 +126,14 @@ export default function Home() {
               <div className="flex items-center gap-3 mb-4">
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>What We Look For</h3>
               </div>
-              <ul className="space-y-2 text-muted-foreground">
-                <li style={{fontSize: '20px'}}>• Mature lower middle market businesses</li>
-                <li style={{fontSize: '20px'}}>• Large fragmented industries with long-term secular growth drivers</li>
-                <li style={{fontSize: '20px'}}>• Consistent profitability and revenue stability</li>
-                <li style={{fontSize: '20px'}}>• Predictable, recurring revenue streams</li>
-                <li style={{fontSize: '20px'}}>• Attractive unit economics</li>
-                <li style={{fontSize: '20px'}}>• Capital-efficient operations</li>
-                <li style={{fontSize: '20px'}}>• Organic and acquisition growth potential</li>
+              <ul className="space-y-3 text-muted-foreground">
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Mature lower middle market businesses</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Large fragmented industries with long-term secular growth drivers</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Consistent profitability and revenue stability</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Predictable, recurring revenue streams</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Attractive unit economics</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Capital-efficient operations</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Organic and acquisition growth potential</li>
               </ul>
             </div>
 
@@ -142,11 +142,11 @@ export default function Home() {
               <div className="flex items-center gap-3 mb-4">
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>Investment Parameters</h3>
               </div>
-              <ul className="space-y-2 text-muted-foreground">
-                <li style={{fontSize: '20px'}}>• Platform companies: $1–$5M EBITDA (add-ons any size)</li>
-                <li style={{fontSize: '20px'}}>• Majority stake</li>
-                <li style={{fontSize: '20px'}}>• Leadership transitions or established management partnerships</li>
-                <li style={{fontSize: '20px'}}>• Conservative capital structure</li>
+              <ul className="space-y-3 text-muted-foreground">
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Platform companies: $1–$5M EBITDA (add-ons any size)</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Majority stake</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Leadership transitions or established management partnerships</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Conservative capital structure</li>
               </ul>
             </div>
           </div>
