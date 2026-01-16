@@ -4,20 +4,20 @@ export default function TeamSection() {
   const teamMembers = [
     {
       id: 1,
-      name: "Team Member Name",
-      title: "Title / Role",
-      image: "/images/team-member-1.jpg",
-      bio: "Add a compelling bio that highlights their background, experience, and value-add approach to founder partnerships. Include relevant achievements and investment philosophy.",
-      email: "email@legacytransitionpartners.com",
+      name: "Mike",
+      title: "Founder & Partner",
+      image: "/images/mike-headshot.jpg",
+      bio: "Mike brings extensive experience in private equity and operational excellence. With a proven track record in founder transitions and growth strategy, he is dedicated to building lasting partnerships with exceptional businesses.",
+      email: "mike@legacytransitionpartners.com",
       linkedin: "https://linkedin.com"
     },
     {
       id: 2,
-      name: "Team Member Name",
-      title: "Title / Role",
-      image: "/images/team-member-2.jpg",
-      bio: "Add a compelling bio that highlights their background, experience, and value-add approach to founder partnerships. Include relevant achievements and investment philosophy.",
-      email: "email@legacytransitionpartners.com",
+      name: "Rich",
+      title: "Founder & Partner",
+      image: "/images/rich-headshot.jpg",
+      bio: "Rich combines deep operational expertise with a collaborative approach to founder partnerships. His background in growth operations and investment strategy enables him to unlock transformational value for portfolio companies.",
+      email: "rich@legacytransitionpartners.com",
       linkedin: "https://linkedin.com"
     }
   ];
