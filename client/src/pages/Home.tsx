@@ -145,10 +145,10 @@ export default function Home() {
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Investment Parameters</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
-                <li style={{fontSize: '20px'}}>• $1-$5M of EBITDA (add-ons of any size)</li>
-                <li style={{fontSize: '20px'}}>• Majority ownership</li>
-                <li style={{fontSize: '20px'}}>• Leadership transitions or backing established management teams</li>
-                <li style={{fontSize: '20px'}}>• Conservative capitalization</li>
+                <li style={{fontSize: '20px'}}>• Platform companies: $1–$5M EBITDA (add-ons any size)</li>
+                <li style={{fontSize: '20px'}}>• Majority stake</li>
+                <li style={{fontSize: '20px'}}>• Leadership transitions or established management partnerships</li>
+                <li style={{fontSize: '20px'}}>• Conservative capital structure</li>
               </ul>
             </div>
           </div>
