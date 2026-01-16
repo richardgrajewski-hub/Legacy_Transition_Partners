@@ -152,7 +152,24 @@ export default function Home() {
           </div>
 
           {/* Industry Focus Section */}
-          <div className="mt-16 pt-12 border-t border-slate-200">
+          <div className="mt-16 pt-0">
+            {/* Wave Divider */}
+            <svg
+              className="w-full h-20 md:h-24"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+              style={{marginBottom: '-1px'}}
+            >
+              <path
+                d="M0,60 Q300,20 600,60 T1200,60 L1200,0 L0,0 Z"
+                fill="#E5E7EB"
+              ></path>
+              <path
+                d="M0,70 Q300,40 600,70 T1200,70 L1200,120 L0,120 Z"
+                fill="#FAFBFC"
+              ></path>
+            </svg>
+            <div className="pt-12">
             <div className="text-center mb-12">
               <p className="text-lg font-semibold mb-4" style={{fontSize: '30px', color: '#2c4a7c', fontWeight: '700', fontFamily: 'Georgia, serif'}}>
                 Investing in lower middle market essential service sectors, including but not limited to:
@@ -191,6 +208,7 @@ export default function Home() {
                 <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '30px'}}>Specialty Distribution</h4>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
