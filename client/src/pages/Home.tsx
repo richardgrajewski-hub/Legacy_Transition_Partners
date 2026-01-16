@@ -125,7 +125,7 @@ export default function Home() {
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Target className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>What We Look For</h3>
+                <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>What We Look For</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
                 <li style={{fontSize: '20px'}}>• Mature lower middle market businesses</li>
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Briefcase className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Investment Parameters</h3>
+                <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>Investment Parameters</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
                 <li style={{fontSize: '20px'}}>• Platform companies: $1–$5M EBITDA (add-ons any size)</li>
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="mt-16 pt-12 border-t border-slate-200">
             <div className="text-center mb-12">
               <p className="text-lg text-muted-foreground mb-4" style={{fontSize: '20px'}}>
-                Investing in essential services and products in the lower middle market, including but not limited to:
+                Investing in essential services in the lower middle market, including but not limited to:
               </p>
             </div>
             <div className="grid md:grid-cols-4 gap-8">
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
                   <div className="text-4xl font-bold text-slate-300">Icon</div>
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Commercial & Facility Services</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Commercial & Facility Services</h4>
               </div>
 
               {/* Industry Category 2 */}
@@ -174,7 +174,7 @@ export default function Home() {
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
                   <div className="text-4xl font-bold text-slate-300">Icon</div>
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Specialty Distribution</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Specialty Distribution</h4>
               </div>
 
               {/* Industry Category 3 */}
@@ -182,7 +182,7 @@ export default function Home() {
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
                   <div className="text-4xl font-bold text-slate-300">Icon</div>
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Professional Services</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Professional Services</h4>
               </div>
 
               {/* Industry Category 4 */}
@@ -190,7 +190,7 @@ export default function Home() {
                 <div className="bg-slate-100 rounded-lg p-8 mb-4 h-48 flex items-center justify-center">
                   <div className="text-4xl font-bold text-slate-300">Icon</div>
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c'}}>Infrastructure & Industrial</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Industrial Services</h4>
               </div>
             </div>
           </div>
