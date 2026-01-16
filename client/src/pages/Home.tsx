@@ -84,8 +84,8 @@ export default function Home() {
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">About Us</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
-                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
-                  We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach.
+                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
+                  LTP is an independent investment firm partnering with lower middle market businesses that have an established operating history.
                 </p>
               </div>
             </div>
@@ -94,8 +94,8 @@ export default function Home() {
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">What We Do</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
-                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
-                  We partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth. We bring proven expertise in operational excellence, growth strategy, and founder transitions.
+                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
+                  Over 30 years of investing, value creation, and operational excellence—helping companies unlock their full potential.
                 </p>
               </div>
             </div>
@@ -104,8 +104,8 @@ export default function Home() {
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Why We Are Different</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
-                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
-                  Our approach and capital are flexible and long-term oriented. We partner with business owners seeking a leadership transition as well as management teams looking to grow with new ownership. We operate with humility and transparency.
+                <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
+                  Flexible capital. Long-term partnerships, backing founders and management teams navigating leadership transitions that are ready to scale.
                 </p>
               </div>
             </div>
