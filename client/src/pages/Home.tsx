@@ -156,7 +156,7 @@ export default function Home() {
           {/* Industry Focus Section */}
           <div className="mt-16 pt-12 border-t border-slate-200">
             <div className="text-center mb-12">
-              <p className="text-lg text-muted-foreground mb-4" style={{fontSize: '20px'}}>
+              <p className="text-lg font-semibold mb-4" style={{fontSize: '24px', color: '#2c4a7c'}}>
                 Investing in essential services in the lower middle market, including but not limited to:
               </p>
             </div>
