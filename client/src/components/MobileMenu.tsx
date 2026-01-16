@@ -49,18 +49,18 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ onNavigate }) => {
         <>
           {/* Backdrop */}
           <div
-            className="fixed inset-0 bg-black/50 z-40 md:hidden"
+            className="fixed inset-0 bg-black/50 z-40 md:hidden mobile-menu-backdrop"
             onClick={() => setIsOpen(false)}
           />
 
           {/* Menu Panel */}
-          <div className="absolute top-full left-0 right-0 bg-background border-b border-border shadow-lg z-50 md:hidden">
+          <div className="absolute top-full left-0 right-0 bg-background border-b border-border shadow-lg z-50 md:hidden mobile-menu-panel">
             <nav className="flex flex-col">
               {menuItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => handleNavigation(item.id)}
-                  className="px-4 py-3 text-left text-foreground hover:bg-secondary/10 border-b border-border/50 last:border-b-0 transition-colors"
+                  className="px-4 py-3 text-left text-foreground border-b border-border/50 last:border-b-0 mobile-menu-item"
                 >
                   {item.label}
                 </button>
