@@ -32,11 +32,11 @@ export default function Home() {
             <img src="/images/ltp-logo-header.jpg" alt="Legacy Transition Partners" className="h-24 md:h-32 w-auto" style={{height: '70px'}} />
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#home" className="text-foreground hover:text-primary transition-colors font-semibold" style={{fontSize: '20px'}}>Home</a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold" style={{fontSize: '20px'}}>About Us</a>
-            <a href="#focus" className="text-foreground hover:text-primary transition-colors font-semibold" style={{fontSize: '20px'}}>Our Focus</a>
-            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold" style={{fontSize: '20px'}}>Core Values</a>
-            <a href="#team" className="text-foreground hover:text-primary transition-colors font-semibold" style={{fontSize: '20px'}}>Team</a>
+            <a href="#home" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Home</a>
+            <a href="#about" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>About Us</a>
+            <a href="#focus" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Our Focus</a>
+            <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Core Values</a>
+            <a href="#team" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Team</a>
           </div>
           <MobileMenu />
         </div>
@@ -274,7 +274,7 @@ export default function Home() {
             <div>
               <h4 className="text-white font-bold mb-2">Contact</h4>
               <p className="text-sm text-white">
-                <a href="mailto:info@legacytransitionpartners.com" className="text-white hover:opacity-80 transition-opacity" style={{fontSize: '20px'}}>
+                <a href="mailto:info@legacytransitionpartners.com" className="text-white hover:opacity-80 transition-opacity link-underline" style={{fontSize: '20px'}}>
                   info@legacytransitionpartners.com
                 </a>
               </p>

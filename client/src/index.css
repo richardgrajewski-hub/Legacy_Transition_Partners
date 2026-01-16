@@ -220,7 +220,7 @@
   
   /* Custom button styling for warm accent */
   .btn-primary {
-    @apply bg-accent text-accent-foreground px-8 py-3 rounded-md font-medium hover:shadow-lg hover:scale-105 transition-all;
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-all hover:shadow-lg hover:scale-105;
   }
   
   .btn-outline {
@@ -232,6 +232,28 @@
     @apply bg-card text-card-foreground rounded-lg shadow-sm hover:shadow-lg p-8 transition-all hover:scale-105;
     background: linear-gradient(135deg, #FFFFFF 0%, #F9FBFC 100%);
     border: 1px solid #E5E7EB;
+  }
+  
+  /* Animated underline for links */
+  .link-underline {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #D4A574;
+    transition: width 0.3s ease;
+  }
+  
+  .link-underline:hover::after {
+    width: 100%;
   }
   
   /* Geometric accent line */
