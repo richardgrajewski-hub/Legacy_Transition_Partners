@@ -6,7 +6,7 @@ export default function TeamSection() {
       id: 1,
       name: "Mike Podelnyk",
       title: "Founding Partner",
-      image: "/images/mike-headshot.jpg",
+      image: "/images/mike-headshot.png",
       bio: "Mike brings extensive experience in private equity and operational excellence. With a proven track record in founder transitions and growth strategy, he is dedicated to building lasting partnerships with exceptional businesses.",
       email: "mike@legacytransitionpartners.com",
       linkedin: "https://www.linkedin.com/in/michael-podelnyk/"
@@ -15,7 +15,7 @@ export default function TeamSection() {
       id: 2,
       name: "Rich Grajewski",
       title: "Founding Partner",
-      image: "/images/rich-headshot-matched.png",
+      image: "/images/rich-headshot.png",
       bio: "Rich combines deep operational expertise with a collaborative approach to founder partnerships. His background in growth operations and investment strategy enables him to unlock transformational value for portfolio companies.",
       email: "rich@legacytransitionpartners.com",
       linkedin: "https://www.linkedin.com/in/richard-grajewski/"
