@@ -77,12 +77,12 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="section-spacing bg-white">
+      <section id="about" className="section-spacing bg-slate-700">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             {/* About Us Column */}
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-bold mb-6" style={{color: '#2c4a7c'}}>About Us</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">About Us</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
                   We founded LTP to provide exceptional stewardship for great businesses. We are long-term thinkers, operators, and investors who combine deep experience in private equity and growth operations with a hands-on, collaborative approach.
@@ -92,7 +92,7 @@ export default function Home() {
 
             {/* What We Do Column */}
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-bold mb-6" style={{color: '#2c4a7c'}}>What We Do</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">What We Do</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
                   We partner with lower middle-market companies to protect their legacy and unlock the next chapter of transformational growth. We bring proven expertise in operational excellence, growth strategy, and founder transitions.
@@ -102,7 +102,7 @@ export default function Home() {
 
             {/* Why We Are Different Column */}
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-bold mb-6" style={{color: '#2c4a7c'}}>Why We Are Different</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Why We Are Different</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '18px'}}>
                   Our approach and capital are flexible and long-term oriented. We partner with business owners seeking a leadership transition as well as management teams looking to grow with new ownership. We operate with humility and transparency.
