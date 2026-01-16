@@ -120,42 +120,30 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#2c4a7c'}}>Our Focus</h2>
             <div className="accent-divider mx-auto"></div>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Target Companies */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* What We Look For */}
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Target className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Target Criteria</h3>
+                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>What We Look For</h3>
               </div>
-              <p className="text-foreground font-semibold text-lg mb-2">$1-$5M EBITDA</p>
               <p className="text-muted-foreground" style={{fontSize: '20px'}}>
-                Founder-owned businesses based in the U.S. providing essential services with consistent performance, strong growth potential, and operating in highly fragmented sectors.
+                Established lower middle market companies with strong operating histories, consistent revenue and profitability, recurring revenue models or re-occurring purchase patterns, and strong unit economics. We focus on essential services and products in highly fragmented sectors with durable secular tailwinds.
               </p>
             </div>
 
-            {/* Industries */}
+            {/* Investment Parameters */}
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
                 <Briefcase className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Industries</h3>
+                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Investment Parameters</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
-                <li style={{fontSize: '20px'}}>• Commercial, Facility, & Residential Services</li>
-                <li style={{fontSize: '20px'}}>• Infrastructure & Industrial Services</li>
-                <li style={{fontSize: '20px'}}>• Professional Services</li>
-                <li style={{fontSize: '20px'}}>• Specialty Distribution</li>
+                <li style={{fontSize: '20px'}}>• $1-$5M of EBITDA (add-ons of any size)</li>
+                <li style={{fontSize: '20px'}}>• Majority ownership</li>
+                <li style={{fontSize: '20px'}}>• Leadership transitions or backing established management teams</li>
+                <li style={{fontSize: '20px'}}>• Conservative capitalization</li>
               </ul>
-            </div>
-
-            {/* Strategy */}
-            <div className="card-elevated">
-              <div className="flex items-center gap-3 mb-4">
-                <TrendingUp className="w-8 h-8 text-primary" />
-                <h3 className="text-xl font-bold" style={{color: '#2c4a7c'}}>Strategy</h3>
-              </div>
-              <p className="text-muted-foreground" style={{fontSize: '20px'}}>
-                Generate transformational growth through a hands on partnership approach with founders and management teams focused on operational excellence and executing a disciplined value creation plan.
-              </p>
             </div>
           </div>
         </div>
