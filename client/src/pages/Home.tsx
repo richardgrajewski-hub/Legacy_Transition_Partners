@@ -14,10 +14,12 @@ import { MobileMenu } from "../components/MobileMenu";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [parallaxOffset, setParallaxOffset] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
+      setParallaxOffset(window.scrollY * 0.5);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -49,6 +51,8 @@ export default function Home() {
           style={{
             backgroundImage: "url('/images/michigan-hero.jpg')",
             backgroundAttachment: "fixed",
+            transform: `translateY(${parallaxOffset}px)`,
+            transition: 'transform 0.1s ease-out',
           }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
