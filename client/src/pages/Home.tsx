@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="bg-white mb-4 h-64 flex items-center justify-center">
                   <img src="/images/commercial-facility-services.png" alt="Commercial & Facility Services" className="w-full h-full object-contain" />
                 </div>
-                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Commercial, Facility & Home Services</h4>
+                <h4 className="text-lg font-semibold" style={{color: '#2c4a7c', fontSize: '20px'}}>Commercial & Facility Services</h4>
               </div>
 
               {/* Industry Category 2 */}
