@@ -105,7 +105,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Why We Are Different</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
-                  Flexible capital. Long-term partnerships, backing founders and management teams navigating leadership transitions that are ready to scale.
+                  Flexible capital. Long-term partnerships, backing founders or management teams navigating leadership transitions and are ready to scale.
                 </p>
               </div>
             </div>
@@ -124,7 +124,6 @@ export default function Home() {
             {/* What We Look For */}
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
-                <Target className="w-8 h-8 text-primary" />
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>What We Look For</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
@@ -141,7 +140,6 @@ export default function Home() {
             {/* Investment Parameters */}
             <div className="card-elevated">
               <div className="flex items-center gap-3 mb-4">
-                <Briefcase className="w-8 h-8 text-primary" />
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>Investment Parameters</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground">
