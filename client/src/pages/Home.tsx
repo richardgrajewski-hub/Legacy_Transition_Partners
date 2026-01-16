@@ -203,7 +203,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
-            <p className="text-lg text-white/90 max-w-2xl mx-auto" style={{fontSize: '20px'}}>
+            <p className="text-lg text-white/90 max-w-2xl mx-auto" style={{fontSize: '20px', fontWeight: '700'}}>
               Legacy, integrity, humility, and unwavering passion to implement clear, actionable strategies to deliver measurable and enduring growth.
             </p>
           </div>
