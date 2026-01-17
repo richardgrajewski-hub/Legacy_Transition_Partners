@@ -80,7 +80,7 @@ export default function Home() {
         </svg>
 
         <div className="relative z-10 text-center px-4 max-w-5xl">
-          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 leading-tight" style={{paddingTop: '520px', textShadow: '0 2px 8px rgba(0,0,0,0.3)'}}>
+          <h1 className="text-white text-4xl md:text-6xl font-bold mb-12 leading-tight" style={{paddingTop: '480px', paddingBottom: '60px', textShadow: '0 2px 8px rgba(0,0,0,0.3)'}}>
             Partnering with Founders to Build Lasting Legacies
           </h1>
           <p className="text-white text-lg md:text-xl mb-8 opacity-95">
