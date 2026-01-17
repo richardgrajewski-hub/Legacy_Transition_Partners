@@ -96,7 +96,7 @@ export default function Home() {
             {/* About Us Column */}
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">About Us</h3>
-              <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
                   LTP is an independent investment firm partnering with lower middle market businesses that have an established operating history.
                 </p>
@@ -106,7 +106,7 @@ export default function Home() {
             {/* What We Do Column */}
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Expertise</h3>
-              <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
                   Over 30 years of investing, value creation, and operational excellence—helping companies unlock their full potential.
                 </p>
@@ -116,7 +116,7 @@ export default function Home() {
             {/* Why We Are Different Column */}
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Difference</h3>
-              <div className="bg-slate-50 rounded-lg p-6 shadow-sm">
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
                   Flexible capital. Long-term partnerships, backing founders or management teams navigating leadership transitions and are ready to scale.
                 </p>
