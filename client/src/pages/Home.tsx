@@ -307,7 +307,7 @@ export default function Home() {
               },
 
             ].map((value, idx) => (
-              <div key={idx} className="bg-white rounded-lg p-6 text-center shadow-md">
+              <div key={idx} className="bg-white rounded-lg p-6 text-center shadow-md core-value-card">
                 <h3 className="text-xl font-bold mb-3" style={{color: '#2c4a7c', fontSize: '26px'}}>{value.title}</h3>
                 <p className="text-slate-600 text-sm" style={{fontSize: '20px'}}>{value.description}</p>
               </div>
