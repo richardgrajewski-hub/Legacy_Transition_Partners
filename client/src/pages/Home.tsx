@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Target, Briefcase, TrendingUp, Building2, Zap, Users, Handshake } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import TeamSection from "./TeamSection";
 import { MobileMenu } from "../components/MobileMenu";
 
@@ -16,6 +16,8 @@ export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [parallaxOffset, setParallaxOffset] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [coreValuesVisible, setCoreValuesVisible] = useState(false);
+  const coreValuesRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +27,28 @@ export default function Home() {
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setCoreValuesVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (coreValuesRef.current) {
+      observer.observe(coreValuesRef.current);
+    }
+
+    return () => {
+      if (coreValuesRef.current) {
+        observer.unobserve(coreValuesRef.current);
+      }
+    };
   }, []);
 
   const scrollToTop = () => {
@@ -228,7 +252,7 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section id="values" className="section-spacing bg-slate-700 pattern-diagonal">
+      <section id="values" ref={coreValuesRef} className={`section-spacing bg-slate-700 pattern-diagonal fade-in-section ${coreValuesVisible ? 'visible' : ''}`}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Core Values</h2>

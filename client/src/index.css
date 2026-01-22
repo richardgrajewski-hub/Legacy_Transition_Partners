@@ -349,4 +349,23 @@
   .section-spacing {
     @apply py-24 md:py-40;
   }
+  
+  /* Fade-in animation for sections entering viewport */
+  @keyframes fadeInSection {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-section {
+    opacity: 0;
+    animation: fadeInSection 0.8s ease-out forwards;
+  }
+  
+  .fade-in-section.visible {
+    opacity: 1;
+  }
 }
