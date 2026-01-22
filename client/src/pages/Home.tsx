@@ -108,7 +108,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Expertise</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
-                  Over 30 years of investing, value creation, and operational excellence—helping companies unlock their full potential.
+                  Combined over 30 years of investing, value creation, and operational excellence—helping companies unlock their full potential.
                 </p>
               </div>
             </div>
