@@ -41,7 +41,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(({ isVisible = fal
               <div className="mb-6 overflow-hidden rounded-lg bg-gray-200 h-96 flex items-center justify-center">
                 <img
                   src={member.image}
-                  alt={member.name}
+                  alt={`${member.name}, ${member.title} at Legacy Transition Partners`}
                   className="w-full h-full object-contain" style={{backgroundColor: '#ffffff'}}
                 />
               </div>
