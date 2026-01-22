@@ -50,7 +50,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(({ isVisible = fal
               <div className="flex gap-6 mb-6">
                 <a
                   href={`mailto:${member.email}`}
-                  className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold" style={{fontSize: '20px'}}
+                  className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors font-semibold" style={{fontSize: '20px'}}
                 >
                   <Mail className="w-5 h-5" />
                   Email
@@ -59,7 +59,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(({ isVisible = fal
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-primary hover:text-primary-foreground transition-colors font-semibold" style={{fontSize: '20px'}}
+                  className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors font-semibold" style={{fontSize: '20px'}}
                 >
                   <Linkedin className="w-5 h-5" />
                   LinkedIn
