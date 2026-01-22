@@ -242,10 +242,6 @@ export default function Home() {
             {/* Value Cards */}
             {[
               {
-                title: "Candor and Trust",
-                description: "We are open and straightforward in how we operate. Founders and leadership teams always know what we're thinking, what we're working on, and how the business is performing.",
-              },
-              {
                 title: "Legacy",
                 description: "We honor what founders have built and take responsibility for carrying it forward. We protect the reputation, culture, and relationships that define the business.",
               },
@@ -264,6 +260,10 @@ export default function Home() {
               {
                 title: "Stewardship",
                 description: "We are long-term owners who actively lead and support our businesses. By providing strategic guidance, operational discipline, and the right tools and resources, we help companies build lasting strength and enduring success.",
+              },
+              {
+                title: "Candor and Trust",
+                description: "We are open and straightforward in how we operate. Founders and leadership teams always know what we're thinking, what we're working on, and how the business is performing.",
               },
 
             ].map((value, idx) => (
