@@ -98,7 +98,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">About Us</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
-                  Legacy Transition Partners is an independent investment firm partnering with founder-owned and entrepreneur-led businesses at critical moments of transition. We acquire a majority stake and provide capital, strategic leadership, and operational support to help companies preserve what makes them special while building a strong foundation for their next phase of growth
+                  Legacy Transition Partners is an independent investment firm partnering with founder-owned and entrepreneur-led businesses at critical moments of transition. We acquire a majority stake and provide capital, strategic leadership, and operational support to help companies preserve what makes them special while building a strong foundation for their next phase of growth.
                 </p>
               </div>
             </div>
