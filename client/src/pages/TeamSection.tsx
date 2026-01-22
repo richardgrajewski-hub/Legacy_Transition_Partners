@@ -1,6 +1,11 @@
 import { Mail, Linkedin } from 'lucide-react';
+import { forwardRef } from 'react';
 
-export default function TeamSection() {
+interface TeamSectionProps {
+  isVisible?: boolean;
+}
+
+const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(({ isVisible = false }, ref) => {
   const teamMembers = [
     {
       id: 1,
@@ -23,7 +28,7 @@ export default function TeamSection() {
   ];
 
   return (
-    <section id="team" className="section-spacing bg-white pattern-diagonal">
+    <section id="team" ref={ref} className={`section-spacing bg-white pattern-diagonal fade-in-section ${isVisible ? 'visible' : ''}`}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#2c4a7c'}}>Team</h2>
@@ -67,6 +72,10 @@ export default function TeamSection() {
           ))}
         </div>
       </div>
-    </section>
-  );
-}
+      </section>
+    );
+  }
+);
+
+TeamSection.displayName = 'TeamSection';
+export default TeamSection;

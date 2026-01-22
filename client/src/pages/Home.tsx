@@ -17,7 +17,13 @@ export default function Home() {
   const [parallaxOffset, setParallaxOffset] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [coreValuesVisible, setCoreValuesVisible] = useState(false);
+  const [aboutUsVisible, setAboutUsVisible] = useState(false);
+  const [ourFocusVisible, setOurFocusVisible] = useState(false);
+  const [teamVisible, setTeamVisible] = useState(false);
   const coreValuesRef = useRef<HTMLElement>(null);
+  const aboutUsRef = useRef<HTMLElement>(null);
+  const ourFocusRef = useRef<HTMLElement>(null);
+  const teamRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,24 +36,34 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setCoreValuesVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      { threshold: 0.1 }
-    );
+    const createObserver = (ref: React.RefObject<HTMLElement | null>, setState: (value: boolean) => void) => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setState(true);
+            observer.unobserve(entry.target);
+          }
+        },
+        { threshold: 0.1 }
+      );
 
-    if (coreValuesRef.current) {
-      observer.observe(coreValuesRef.current);
-    }
+      if (ref.current) {
+        observer.observe(ref.current);
+      }
+
+      return observer;
+    };
+
+    const coreValuesObserver = createObserver(coreValuesRef, setCoreValuesVisible);
+    const aboutUsObserver = createObserver(aboutUsRef, setAboutUsVisible);
+    const ourFocusObserver = createObserver(ourFocusRef, setOurFocusVisible);
+    const teamObserver = createObserver(teamRef, setTeamVisible);
 
     return () => {
-      if (coreValuesRef.current) {
-        observer.unobserve(coreValuesRef.current);
-      }
+      if (coreValuesRef.current) coreValuesObserver.unobserve(coreValuesRef.current);
+      if (aboutUsRef.current) aboutUsObserver.unobserve(aboutUsRef.current);
+      if (ourFocusRef.current) ourFocusObserver.unobserve(ourFocusRef.current);
+      if (teamRef.current) teamObserver.unobserve(teamRef.current);
     };
   }, []);
 
@@ -114,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="section-spacing bg-slate-700 pattern-diagonal">
+      <section id="about" ref={aboutUsRef} className={`section-spacing bg-slate-700 pattern-diagonal fade-in-section ${aboutUsVisible ? 'visible' : ''}`}>
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8" style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gridAutoRows: '1fr'}}>
             {/* About Us Column */}
@@ -151,7 +167,7 @@ export default function Home() {
       </section>
 
       {/* Target Companies Section */}
-      <section id="focus" className="section-spacing bg-white pb-64 pattern-diagonal">
+      <section id="focus" ref={ourFocusRef} className={`section-spacing bg-white pb-64 pattern-diagonal fade-in-section ${ourFocusVisible ? 'visible' : ''}`}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#2c4a7c'}}>Our Focus</h2>
@@ -301,7 +317,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <TeamSection />
+      <TeamSection ref={teamRef} isVisible={teamVisible} />
 
 
 
