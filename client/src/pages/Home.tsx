@@ -159,6 +159,7 @@ export default function Home() {
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Platform companies: $1–5M EBITDA (add-ons acquisitions of any size)</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Majority stake, with meaningful founder or management rollover</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Geography: United States</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Leadership transitions or established management partnerships</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Conservative, long-term oriented capital structures</li>
               </ul>
             </div>
