@@ -185,7 +185,7 @@ export default function Home() {
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Consistent profitability and revenue stability</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Predictable, repeat revenue streams</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Attractive margins and capital-efficient operations</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Opportunities to grow through thoughtful expansion and selective<br/><span style={{display: 'inline-block', paddingLeft: '30px'}}>acquisitions</span></li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Opportunities to grow through thoughtful expansion and selective<br/><span style={{display: 'inline-block', paddingLeft: '16px'}}>acquisitions</span></li>
 
               </ul>
             </div>
