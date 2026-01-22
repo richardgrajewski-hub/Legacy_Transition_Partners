@@ -98,7 +98,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">About Us</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
-                  LTP is an independent investment firm partnering with lower middle market businesses that have an established operating history.
+                  Legacy Transition Partners is an independent investment firm partnering with founder-owned and entrepreneur-led businesses at critical moments of transition. We acquire a majority stake and provide capital, strategic leadership, and operational support to help companies preserve what makes them special while building a strong foundation for their next phase of growth
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Expertise</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
-                  Combined over 30 years of investing, value creation, and operational excellence—helping companies unlock their full potential.
+                  Our team brings deep operational experience and disciplined investing to help founder-led businesses grow stronger over time. We work alongside management teams to improve systems, develop leaders, and build more resilient organizations capable of supporting sustainable, long-term growth.
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Difference</h3>
               <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
-                  Flexible capital. Long-term partnerships, backing founders or management teams navigating leadership transitions and are ready to scale.
+                  We invest our own capital and take responsibility as majority owners, working side-by-side with founders and management teams. Our approach is hands-on, long-term, and built on trust. We focus on creating lasting value and guiding each business through its next chapter while honoring the legacy that came before.
                 </p>
               </div>
             </div>
@@ -141,12 +141,12 @@ export default function Home() {
               </div>
               <ul className="space-y-3 text-muted-foreground">
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Mature lower middle market businesses</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Large fragmented industries with long-term secular growth drivers</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Founder-led companies in essential, reslient industries</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Consistent profitability and revenue stability</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Predictable, recurring revenue streams</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Attractive unit economics</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Capital-efficient operations</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Organic and acquisition growth potential</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Predictable, repeat revenue streams</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Attractive margins and capital-effecient operations</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Opportunities to grow through thoughtful expansion and selective acquisitions</li>
+
               </ul>
             </div>
 
@@ -156,10 +156,10 @@ export default function Home() {
                 <h3 className="text-xl font-bold" style={{color: '#2c4a7c', fontSize: '30px'}}>Investment Parameters</h3>
               </div>
               <ul className="space-y-3 text-muted-foreground">
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Platform companies: $1–$5M EBITDA (add-ons any size)</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Majority stake</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Leadership transitions or established management partnerships</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Conservative capital structure</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Platform companies: $1–5M EBITDA (add-ons acquisitions of any size)</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Majority stake, with meaningful founder or management rollover</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Geography: United States</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Conservative, long-term oriented capital structures</li>
               </ul>
             </div>
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Core Values</h2>
             <div className="accent-divider mx-auto mb-6"></div>
             <p className="text-lg text-white/90 max-w-2xl mx-auto" style={{fontSize: '20px', fontWeight: '700'}}>
-              Legacy, integrity, humility, and unwavering passion to implement clear, actionable strategies to deliver measurable and enduring growth.
+              Legacy, integrity, collaborative leadership, and unwavering passion to implement clear, actionable strategies to deliver measurable and enduring growth.
             </p>
           </div>
 
@@ -241,29 +241,30 @@ export default function Home() {
             {/* Value Cards */}
             {[
               {
+                title: "Candor and Trust",
+                description: "We are open and straightforward in how we operate. Founders and leadership teams always know what we're thinking, what we're working on, and how the business is performing.",
+              },
+              {
                 title: "Legacy",
-                description: "Preserve and honor the founder's vision and accomplishments while strategically building on their life's work for enduring success.",
+                description: "We honor what founders have built and take responsibility for carrying it forward. We protect the reputation, culture, and relationships that define the business.",
               },
               {
                 title: "Integrity",
-                description: "Operate with transparent stewardship, aligning founder's and investor's objectives ensuring actions match commitments.",
+                description: "We operate with the highest standards of honesty and accountability. Our actions match our words, and we build lasting partnerships through fairness, consistency, and follow-through.",
               },
               {
-                title: "Humility",
-                description: "Approach every partnership with humility, recognizing the founder's deep knowledge of their business is invaluable and the investor's role is to collaborate and enhance what they have built.",
+                title: "Collaborative Leadership",
+                description: "We value the people who built and run the business. Our goal is not to replace teams, but to support them - giving leaders the tools, resources, and structure they need to perform at their best.",
               },
               {
-                title: "Operational Excellence",
-                description: "Drive operational excellence by identifying inefficiencies, implementing proven best practices, and delivering measurable improvements that strengthen the business and unlock sustainable growth.",
+                title: "Operational Discipline",
+                description: "We bring rigor, structure, and accountability to help businesses run better, scale more efficiently, and make better decisions.",
               },
               {
-                title: "Long-Term Value Creation",
-                description: "Focus on building sustainable, fundamental strength in the business rather than pursuing short-term gains, ensuring lasting value for founders and stakeholders.",
+                title: "Stewardship",
+                description: "We are long-term owners who actively lead and support our businesses. By providing strategic guidance, operational discipline, and the right tools and resources, we help companies build lasting strength and enduring success.",
               },
-              {
-                title: "Transparency",
-                description: "Open, honest, candid communication about opportunities, challenges, and strategic decisions.",
-              },
+
             ].map((value, idx) => (
               <div key={idx} className="bg-white rounded-lg p-6 text-center shadow-md">
                 <h3 className="text-xl font-bold mb-3" style={{color: '#2c4a7c', fontSize: '26px'}}>{value.title}</h3>
