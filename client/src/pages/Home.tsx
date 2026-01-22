@@ -96,7 +96,7 @@ export default function Home() {
             {/* About Us Column */}
             <div className="text-center" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">About Us</h3>
-              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1, minHeight: '280px'}}>
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-start', flex: 1, minHeight: '280px', paddingTop: '24px'}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
                   Legacy Transition Partners is an independent investment firm partnering with founder-owned and entrepreneur-led businesses at critical moments of transition. We acquire a majority stake and provide capital, strategic leadership, and operational support to help companies preserve what makes them special while building a strong foundation for their next phase of growth.
                 </p>
@@ -106,7 +106,7 @@ export default function Home() {
             {/* What We Do Column */}
             <div className="text-center" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Expertise</h3>
-              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1, minHeight: '280px'}}>
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-start', flex: 1, minHeight: '280px', paddingTop: '24px'}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
                   Our team brings deep operational experience and disciplined investing to help founder-led businesses grow stronger over time. We work alongside management teams to improve systems, develop leaders, and build more resilient organizations capable of supporting sustainable, long-term growth.
                 </p>
@@ -116,7 +116,7 @@ export default function Home() {
             {/* Why We Are Different Column */}
             <div className="text-center" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Difference</h3>
-              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1, minHeight: '280px'}}>
+              <div className="bg-slate-50 rounded-lg p-6 shadow-sm" style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-start', flex: 1, minHeight: '280px', paddingTop: '24px'}}>
                 <p className="text-muted-foreground leading-relaxed" style={{fontSize: '20px'}}>
                   We invest our own capital and take responsibility as majority owners, working side-by-side with founders and management teams. Our approach is hands-on, long-term, and built on trust. We focus on creating lasting value and guiding each business through its next chapter while honoring the legacy that came before.
                 </p>
