@@ -141,10 +141,10 @@ export default function Home() {
               </div>
               <ul className="space-y-3 text-muted-foreground">
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Mature lower middle market businesses</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Founder-led companies in essential, reslient industries</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Founder-led companies in essential, resilient industries</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Consistent profitability and revenue stability</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Predictable, repeat revenue streams</li>
-                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Attractive margins and capital-effecient operations</li>
+                <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Attractive margins and capital-efficient operations</li>
                 <li style={{fontSize: '20px'}}><span style={{color: '#D4A574', fontWeight: 'bold'}}>•</span> Opportunities to grow through thoughtful expansion and selective acquisitions</li>
 
               </ul>
