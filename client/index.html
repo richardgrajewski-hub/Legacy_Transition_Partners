@@ -27,7 +27,13 @@
     <meta name="twitter:image" content="/images/ltp-logo-header.jpg" />
     <!-- Robots and Indexing -->
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://legacytransitionpartners.com" />    
+    <link rel="canonical" href="https://legacytransitionpartners.com" />
+    <!-- Redirect www to non-www to prevent duplicate indexing -->
+    <script>
+      if (window.location.hostname === 'www.legacytransitionpartners.com') {
+        window.location.href = 'https://legacytransitionpartners.com' + window.location.pathname + window.location.search + window.location.hash;
+      }
+    </script>    
     <!-- Google Fonts for typography system -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
