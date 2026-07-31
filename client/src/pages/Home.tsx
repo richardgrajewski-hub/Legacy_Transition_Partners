@@ -88,7 +88,7 @@ export default function Home() {
             <a href="#focus" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Our Focus</a>
             <a href="#values" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Core Values</a>
             <a href="#team" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Team</a>
-            <a href="https://drive.usercontent.google.com/download?id=1hDf4D9Dd5xoeWMIQZd2SdCFQHwDGXOAO&export=download" download="LTP One-Pager.pdf" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Investment One-Pager</a>
+            <a href="https://drive.usercontent.google.com/download?id=1hDf4D9Dd5xoeWMIQZd2SdCFQHwDGXOAO&export=download" download="Legacy Transition Partners Overview.pdf" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-semibold link-underline" style={{fontSize: '20px'}}>Investment One-Pager</a>
           </div>
           <MobileMenu />
         </div>

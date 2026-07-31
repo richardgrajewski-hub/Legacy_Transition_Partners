@@ -67,7 +67,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ onNavigate }) => {
               ))}
               <a
                 href="https://drive.usercontent.google.com/download?id=1hDf4D9Dd5xoeWMIQZd2SdCFQHwDGXOAO&export=download"
-                download="LTP One-Pager.pdf"
+                download="Legacy Transition Partners Overview.pdf"
                 onClick={() => setIsOpen(false)}
                 className="px-4 py-3 text-left text-foreground border-b border-border/50 last:border-b-0 mobile-menu-item block"
               >
