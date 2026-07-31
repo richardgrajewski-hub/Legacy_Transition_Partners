@@ -65,6 +65,14 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ onNavigate }) => {
                   {item.label}
                 </button>
               ))}
+              <a
+                href="/manus-storage/LegacyTransitionPartnersOverview_8e6af971.pdf"
+                download="LTP One-Pager.pdf"
+                onClick={() => setIsOpen(false)}
+                className="px-4 py-3 text-left text-foreground border-b border-border/50 last:border-b-0 mobile-menu-item block"
+              >
+                Investment One-Pager
+              </a>
             </nav>
           </div>
         </>
